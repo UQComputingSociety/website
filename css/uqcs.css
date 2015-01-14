@@ -1,0 +1,20 @@
+.container {
+    padding: 2em 0;
+}
+
+.odd {
+    background-color: #eee;
+}
+
+.va-middle {
+    vertical-align: middle;
+}
+
+.large {
+    font-size: 1.5em;
+}
+
+.title-area .name img {
+    height: 45px;
+    vertical-align: top;
+}

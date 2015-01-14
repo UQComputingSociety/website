@@ -2,9 +2,9 @@
 layout: sidebar
 ---
 
-# Executive
+# Managament Committee
 
-The executive for 2015 is as follows:
+The 2015 UQ Computing Society management committee is as follows:
 
 Peter Phillpotts
 : President
@@ -17,3 +17,8 @@ Josh Arnold
 
 Tom Manderson
 : Treasurer and System Administrator
+
+Randall Fernando
+: General committee
+
+More details on what the roles of committee members entail is [available here]({{ "management.html" | prepend: site.baseurl }} )

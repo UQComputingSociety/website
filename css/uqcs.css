@@ -36,3 +36,35 @@
 	margin-left: auto;
 	margin-right: auto;
 }*/
+
+.post-meta{
+	margin-top: 1.5em;
+	display: inline;
+	text-align: right;
+	width: 100%;
+}
+.post h2{
+	display: inline;
+}
+.post>table{
+	border:0;
+	padding: 0;
+	width: 100%;
+}
+.post>table tr{
+	border:0;
+	padding: 0;
+	width: 100%;
+}
+.post>table tr td{
+	border:0;
+	padding: 0;
+}
+
+.blogfoot{
+	text-align: center;
+}
+.read-more{
+	text-align: right;
+	width: 100%;
+}

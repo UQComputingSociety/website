@@ -10,3 +10,5 @@ twitter_username: uqcomputing
 
 # Build settings
 markdown: kramdown
+
+paginate: 5

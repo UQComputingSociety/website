@@ -18,3 +18,7 @@
     height: 45px;
     vertical-align: top;
 }
+
+.details-box{
+	background: #eee; border: 2px solid #ccc; padding: 10px;
+}

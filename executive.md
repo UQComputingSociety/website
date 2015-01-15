@@ -1,5 +1,5 @@
 ---
-layout: sidebar
+layout: page
 ---
 
 # Managament Committee

@@ -22,3 +22,17 @@
 .details-box{
 	background: #eee; border: 2px solid #ccc; padding: 10px;
 }
+
+.sponsor-list{padding:0;margin:0;}
+
+.sponsor-list li{
+	display: block;
+	padding:0;
+	width: 90%;
+	margin: 1em auto;
+}
+/*
+.sponsor-list li img{
+	margin-left: auto;
+	margin-right: auto;
+}*/

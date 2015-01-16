@@ -12,3 +12,6 @@ twitter_username: uqcomputing
 markdown: kramdown
 
 paginate: 5
+gems:
+  - jekyll-sitemap
+

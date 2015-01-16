@@ -3,4 +3,4 @@ ruby '2.2.0'
 gem 'jekyll'
 gem 'therubyracer'
 gem 'foundation'
-
+gem 'jekyll-sitemap'

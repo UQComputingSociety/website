@@ -8,15 +8,19 @@ The 2015 UQ Computing Society management committee is as follows:
 
 Peter Phillpotts
 : President
+: president@uqcs.org.au
 
 Declan Haigh
 : Vice President
+: vicepresident@uqcs.org.au
 
-Josh Arnold
+Crystal Chua
 : Secretary
+: secretary@uqcs.org.au
 
 Tom Manderson
 : Treasurer and System Administrator
+: treasurer@uqcs.org.au
 
 Randall Fernando
 : General committee

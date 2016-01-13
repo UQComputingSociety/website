@@ -2,8 +2,17 @@
 layout: page
 ---
 
-<!-- <h1 class="page-heading">UQ Computing Society</h1> -->
-<hr />
+
+
+<!-- Featured Content Bar -->
+
+<div class="banner">
+    <!-- <h1 class="page-heading">UQ Computing Society</h1> -->
+
+</div>
+
+<div id="main_content" class="container">
+
 {% for post in paginator.posts %}
 <div class="post">
   <h2>
@@ -20,12 +29,7 @@ layout: page
 </div>
 {% endfor %}
 
-<div class="blogfoot">
-<!-- here -->
-<!-- is -->
-<!-- where -->
-<!-- it -->
-<!-- goes -->
+
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
   {% if paginator.previous_page %}
@@ -52,8 +56,6 @@ layout: page
 </div>
 {% endif %}
 
-
-
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<!-- Uncomment for RSS Feed -->
+<!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
 </div>

@@ -1,70 +1,10 @@
-.container {
-    padding: 2em 0;
+
+.pagination{
+    text-align: center;
 }
 
-.odd {
-    background-color: #eee;
-}
-
-.va-middle {
-    vertical-align: middle;
-}
-
-.large {
-    font-size: 1.5em;
-}
-
-.title-area .name img {
-    height: 45px;
-    vertical-align: top;
-}
-
-.details-box{
-	background: #eee; border: 2px solid #ccc; padding: 10px;
-}
-
-.sponsor-list{padding:0;margin:0;}
-
-.sponsor-list li{
-	display: block;
-	padding:0;
-	width: 90%;
-	margin: 1em auto;
-}
-/*
-.sponsor-list li img{
-	margin-left: auto;
-	margin-right: auto;
-}*/
-
-.post-meta{
-	margin-top: 1.5em;
-	display: inline;
-	text-align: right;
-	width: 100%;
-}
-.post h2{
-	display: inline;
-}
-.post>table{
-	border:0;
-	padding: 0;
-	width: 100%;
-}
-.post>table tr{
-	border:0;
-	padding: 0;
-	width: 100%;
-}
-.post>table tr td{
-	border:0;
-	padding: 0;
-}
-
-.blogfoot{
-	text-align: center;
-}
-.read-more{
-	text-align: right;
-	width: 100%;
+.banner{
+    background-image: url(img/banner.jpg);
+    background-color: black;
+    min-height: 200px;
 }

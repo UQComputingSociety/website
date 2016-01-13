@@ -17,3 +17,6 @@ We are an active society who meets regularly to learn, develop, hack and have fu
 ## Sound like you?
 Take advantage of what this society has to offer and get involved!
 
+## The Committee
+
+We are the senate.

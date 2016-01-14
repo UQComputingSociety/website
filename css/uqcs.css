@@ -1,10 +1,75 @@
+/*UQCS Website Style Sheet*/
+/*Author: Dragan Marjanovic*/
 
-.pagination{
+
+.pagination
+{
     text-align: center;
 }
 
-.banner{
-    background-image: url(img/banner.jpg);
+.banner
+{
+    font-weight: 500;
+
+    padding: 5%;
+
+    text-align: center;
+
+    color: white;
     background-color: black;
-    min-height: 200px;
+    background-image: url('../img/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.logo
+{
+    max-height: 40px;
+}
+
+.dropdown-content
+{
+    margin-top: 64px !important;
+}
+
+.profile
+{
+    text-align: center;
+}
+
+.profile .name
+{
+    font-weight: 800;
+}
+
+.profile-img
+{
+    display: block;
+
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+
+    border-radius: 50%;
+}
+
+/*This is hackish and someone else should fix it*/
+.brand-logo
+{
+    padding-top: 9px !important;
+}
+
+.card
+{
+    margin: 15px !important;
+}
+
+
+/*List Items for Markdown*/
+.main ul{
+    margin-left: 20px;
+}
+
+.main li{
+    list-style: initial;
 }

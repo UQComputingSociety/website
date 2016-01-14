@@ -2,15 +2,10 @@
 layout: page
 ---
 # About
-
-> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
-> consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-> Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-> 
-> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
-> id sem consectetuer libero luctus adipiscing.
-
 The UQ Computing Society provides a fun, social and challenging environment for students interested in coding and technology.
+
+> UQCS is hands down, the best value for money club on campus - Dragan Marjanovic
+
 
 ## What do we do?
 We develop, hack and ultimately have fun.
@@ -19,11 +14,11 @@ We develop, hack and ultimately have fun.
 * Broaden your knowledge, learn new technologies and hone your skills at our regular workshops presented by fellow members.
 * Promote high quality software and practices and help fundraise with public 'installfests' of modern browsers, operating systems and UQ technologies.
 * Join one of our programming competition teams giving you a competitive edge whilst perfecting coding techniques.
-* Let your inner hacker loose in a safe, ethical and responsible environment.
+* Let your inner hacker loose!
 
 ## The Committee
 
-> We are the senate
+We are the senate.
 
 <div class="row">
     <div class="profile col s12 m6 l3">

@@ -50,12 +50,30 @@ We develop, hack and ultimately have fun.
 
 
 ## Our Sponsors
-Lastly, a massive thank you to our sponsors with whichout the majority of UQCS
-events would not be possible.
+Lastly, a massive thank you to our sponsors who make the events at UQCS possible.
 
-<!-- 
-<a href="http://accenture.com.au/"><img src="{{site.baseurl}}/img/sponsors/accenture.png" /></a>
-<a href="http://atlassian.com"><img src="{{site.baseurl}}/img/sponsors/atlassian.png" /></a>
-<a href="http://ilab.com.au"><img src="{{site.baseurl}}/img/sponsors/ilab.png" /></a>
-<a href="https://www.tanda.co"><img src="https://www.tanda.co/wp-content/uploads/2015/02/tanda_logo_blue2.png" /></a>
- -->
+
+<div class="row">
+    <div class="profile col s12 m6 l3">
+        <a href="http://accenture.com.au/">
+        <img class="sponsor-img" src="{{site.baseurl}}/img/sponsors/accenture.png">
+        </a>
+    </div>
+    <div class="profile col s12 m6 l3">
+        <a href="http://atlassian.com">
+        <img class="sponsor-img" src="{{site.baseurl}}/img/sponsors/atlassian.png">
+    </a>
+    </div>
+    <div class="profile col s12 m6 l3">
+        <a href="http://ilab.com.au">
+
+        <img class="sponsor-img" src="{{site.baseurl}}/img/sponsors/ilab.png">
+    </a>
+    </div>
+    <div class="profile col s12 m6 l3">
+        <a href="https://www.tanda.co">
+        <img class="sponsor-img" src="https://www.tanda.co/wp-content/uploads/2015/02/tanda_logo_blue2.png">
+    </a>
+    </div>
+</div>
+

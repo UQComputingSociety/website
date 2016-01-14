@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: index
 ---
 
 
@@ -7,8 +7,8 @@ layout: page
 <!-- Featured Content Bar -->
 
 <div class="banner">
-    <!-- <h1 class="page-heading">UQ Computing Society</h1> -->
-
+    <h2>Create Change! Join UQ Computing Society!</h2>
+    <a class="waves-effect waves-light btn-large uqcs_blue">Join</a>
 </div>
 
 <div id="main_content" class="container">
@@ -42,9 +42,13 @@ layout: page
     {% if page == paginator.page %}
       <li class="active"><a href="#!">{{ page }}</a></li>
     {% elsif page == 1 %}
-      <li class="waves-effect"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+      <li class="waves-effect">{{ page }}</li>
+      </a>
     {% else %}
-      <li class="waves-effect"><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+    <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">
+      <li class="waves-effect">{{ page }}</li>
+      </a>
     {% endif %}
   {% endfor %}
 

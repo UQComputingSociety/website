@@ -1,9 +1,21 @@
+
+
   <nav class="uqcs_grey">
     <div class="nav-wrapper container">
-      <a href="/" class="brand-logo">UQ Computing Society</a>
+      <a href="/" class="brand-logo"><!-- UQ Computing Society -->
+          <img class="logo valign" src="{{site.baseurl}}/img/logo.png">
+      </a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        {% include nav.html %}
+        {% include main_nav.html %}
       </ul>
+        <ul class="side-nav" id="mobile-demo">
+            {% include side_nav.html %}
+      </ul>
+
     </div>
   </nav>
         
+
+

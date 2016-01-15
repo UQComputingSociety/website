@@ -77,3 +77,7 @@
 .sponsor-img{
     width: 100%;
 }
+
+.dropdown-content a{
+    color: #3498DB !important;
+}

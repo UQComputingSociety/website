@@ -49,25 +49,25 @@ Lastly, a massive thank you to our sponsors who make the events at UQCS possible
 
 
 <div class="row">
-    <div class="profile col s12 m6 l3">
+    <div class="col s12 m6 l3">
         <a href="http://accenture.com.au/">
         <img class="sponsor-img" src="{{site.baseurl}}/img/sponsors/accenture.png">
         </a>
     </div>
-    <div class="profile col s12 m6 l3">
+    <div class="col s12 m6 l3">
         <a href="http://atlassian.com">
         <img class="sponsor-img" src="{{site.baseurl}}/img/sponsors/atlassian.png">
     </a>
     </div>
-    <div class="profile col s12 m6 l3">
+    <div class="col s12 m6 l3">
         <a href="http://ilab.com.au">
 
         <img class="sponsor-img" src="{{site.baseurl}}/img/sponsors/ilab.png">
     </a>
     </div>
-    <div class="profile col s12 m6 l3">
+    <div class="col s12 m6 l3">
         <a href="https://www.tanda.co">
-        <img class="sponsor-img" src="https://www.tanda.co/wp-content/uploads/2015/02/tanda_logo_blue2.png">
+        <img class="sponsor-img" src="{{site.baseurl}}/img/sponsors/tanda.png">
     </a>
     </div>
 </div>

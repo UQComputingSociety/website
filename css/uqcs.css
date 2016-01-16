@@ -17,7 +17,7 @@
 
     color: white;
     background-color: black;
-    background-image: url('../img/banner.jpg');
+    background-image: url('http://peek.space/art/earth-lights-lrg/full.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -59,38 +59,24 @@
     padding-top: 9px !important;
 }
 
-.card
-{
-    /*padding: 15px !important;*/
-}
-
 
 /*List Items for Markdown*/
-.main ul{
+.main ul
+{
     margin-left: 20px;
 }
 
-.main li{
+.main li
+{
     list-style: initial;
 }
 
-.sponsor-img{
+.sponsor-img
+{
     width: 100%;
 }
 
-.dropdown-content a{
-    color: #3498DB !important;
-}
-
-/*Rectifies padding issue with card images*/
-.row .col {
-    /*padding: 0 !important;*/
-}
-
-.card{
-    /*display: inline-block !important;*/
-}
-
-.card{
-    /*max-width: 310px !important;*/
+.dropdown-content a
+{
+    color: #3498db !important;
 }

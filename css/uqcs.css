@@ -61,7 +61,7 @@
 
 .card
 {
-    margin: 15px !important;
+    /*padding: 15px !important;*/
 }
 
 
@@ -80,4 +80,17 @@
 
 .dropdown-content a{
     color: #3498DB !important;
+}
+
+/*Rectifies padding issue with card images*/
+.row .col {
+    /*padding: 0 !important;*/
+}
+
+.card{
+    /*display: inline-block !important;*/
+}
+
+.card{
+    /*max-width: 310px !important;*/
 }

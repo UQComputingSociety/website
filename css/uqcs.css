@@ -1,70 +1,96 @@
-.container {
-    padding: 2em 0;
+/*UQCS Website Style Sheet*/
+/*Author: Dragan Marjanovic*/
+
+
+.pagination
+{
+    text-align: center;
 }
 
-.odd {
-    background-color: #eee;
+.banner
+{
+    font-weight: 500;
+
+    padding: 5%;
+
+    text-align: center;
+
+    color: white;
+    background-color: black;
+    background-image: url('../img/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
-.va-middle {
-    vertical-align: middle;
+.logo
+{
+    max-height: 40px;
 }
 
-.large {
-    font-size: 1.5em;
+.dropdown-content
+{
+    margin-top: 64px !important;
 }
 
-.title-area .name img {
-    height: 45px;
-    vertical-align: top;
+.profile
+{
+    text-align: center;
 }
 
-.details-box{
-	background: #eee; border: 2px solid #ccc; padding: 10px;
+.profile .name
+{
+    font-weight: 800;
 }
 
-.sponsor-list{padding:0;margin:0;}
+.profile-img
+{
+    display: block;
 
-.sponsor-list li{
-	display: block;
-	padding:0;
-	width: 90%;
-	margin: 1em auto;
-}
-/*
-.sponsor-list li img{
-	margin-left: auto;
-	margin-right: auto;
-}*/
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
 
-.post-meta{
-	margin-top: 1.5em;
-	display: inline;
-	text-align: right;
-	width: 100%;
-}
-.post h2{
-	display: inline;
-}
-.post>table{
-	border:0;
-	padding: 0;
-	width: 100%;
-}
-.post>table tr{
-	border:0;
-	padding: 0;
-	width: 100%;
-}
-.post>table tr td{
-	border:0;
-	padding: 0;
+    border-radius: 50%;
 }
 
-.blogfoot{
-	text-align: center;
+/*This is hackish and someone else should fix it*/
+.brand-logo
+{
+    padding-top: 9px !important;
 }
-.read-more{
-	text-align: right;
-	width: 100%;
+
+.card
+{
+    /*padding: 15px !important;*/
+}
+
+
+/*List Items for Markdown*/
+.main ul{
+    margin-left: 20px;
+}
+
+.main li{
+    list-style: initial;
+}
+
+.sponsor-img{
+    width: 100%;
+}
+
+.dropdown-content a{
+    color: #3498DB !important;
+}
+
+/*Rectifies padding issue with card images*/
+.row .col {
+    /*padding: 0 !important;*/
+}
+
+.card{
+    /*display: inline-block !important;*/
+}
+
+.card{
+    /*max-width: 310px !important;*/
 }

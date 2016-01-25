@@ -3,12 +3,57 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
+<!-- Favicon -->
+<link rel="apple-touch-icon" sizes="57x57" href="{{site.baseurl}}/img/favicon.ico/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="{{site.baseurl}}/img/favicon.ico/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="{{site.baseurl}}/img/favicon.ico/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="{{site.baseurl}}/img/favicon.ico/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="{{site.baseurl}}/img/favicon.ico/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="{{site.baseurl}}/img/favicon.ico/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/favicon.ico/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="{{site.baseurl}}/img/favicon.ico/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="{{site.baseurl}}/img/favicon.ico/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="{{site.baseurl}}/img/favicon.ico/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="{{site.baseurl}}/img/favicon.ico/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="{{site.baseurl}}/img/favicon.ico/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="{{site.baseurl}}/img/favicon.ico/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="{{site.baseurl}}/img/favicon.ico/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <link rel="stylesheet" href="/css/foundation.css" />
-  <link rel="stylesheet" href="/css/foundation-icons.css" />
-  <link rel="stylesheet" href="/css/uqcs.css" />
-  <link rel="alternate" type="application/rss+xml" title="Posts Feed" href="{{site.baseurl}}/feed.xml" />
+  <link rel="stylesheet" href="{{site.baseurl}}/css/foundation-icons.css" />
+  <link rel="stylesheet" href="{{site.baseurl}}/css/uqcs.css" />
+  <link rel="alternate" type="application/rss+xml" title="Posts Feed" href="/feed.xml" />
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <script src="/js/vendor/modernizr.js"></script>
   <script src="/js/ga.js"></script>
+
+  <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+
+
+  <link rel="stylesheet" href="{{site.baseurl}}/css/color.css" />
+  <script type="text/javascript">
+  $( document ).ready(function(){
+      $(".dropdown-button").dropdown();
+    $(".button-collapse").sideNav();
+  });
+
+  </script>        
 </head>

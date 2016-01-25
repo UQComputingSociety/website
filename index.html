@@ -1,9 +1,18 @@
 ---
-layout: page
+layout: index
 ---
 
-<h1 class="page-heading">UQ Computing Society</h1>
-<hr />
+
+
+<!-- Featured Content Bar -->
+
+<div class="banner">
+    <h2>Create Change! Join UQ Computing Society!</h2>
+    <a class="waves-effect waves-light btn-large uqcs_blue">Join</a>
+</div>
+
+<div id="main_content" class="container">
+
 {% for post in paginator.posts %}
 <div class="post">
   <h2>
@@ -20,20 +29,37 @@ layout: page
 </div>
 {% endfor %}
 
-<div class="blogfoot">
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-    {% else %}
-      <span class="previous">Previous</span>
-    {% endif %}
-      <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-    {% else %}
-      <span class="next ">Next</span>
-    {% endif %}
-  </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <li class="waves-effect"><a href="{{ paginator.previous_page_path }}"><i class="material-icons">chevron_left</i></a></li>
+  {% else %}
+    <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <li class="active uqcs_blue"><a href="#!">{{ page }}</a></li>
+    {% elsif page == 1 %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+      <li class="waves-effect">{{ page }}</li>
+      </a>
+    {% else %}
+    <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">
+      <li class="waves-effect">{{ page }}</li>
+      </a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <li class="waves-effect"><a href="{{ paginator.next_page_path }}"><i class="material-icons">chevron_right</i></a></li>
+  {% else %}
+    <li class="disabled"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+  {% endif %}
+</div>
+{% endif %}
+
+<!-- Uncomment for RSS Feed -->
+<!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
 </div>

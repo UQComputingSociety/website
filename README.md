@@ -1,5 +1,5 @@
 # UQCS Website
-[uqcs.org.au](https://uqcs.org.au)
+The website of The University of Queensland Computing Society.
 
 ## Showcasing your project
 
@@ -38,6 +38,10 @@ Once you've produced the image add the below snippet to
 Done that? Now just send us a pull request! Don't know how? 
 Email me at dmarj97@gmail.com for help.
 
+
+## Website Content Requests and Bugs
+If you find a bug on the website or would like to request an article or content
+please select the issue tab and report the issue or what you would like. :)
 
 
 ## Copyright

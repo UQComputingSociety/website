@@ -43,11 +43,11 @@ layout: index
     {% if page == paginator.page %}
       <li class="active uqcs_blue"><a href="#!">{{ page }}</a></li>
     {% elsif page == 1 %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+    <a href="{{ paginator.previous_page_path | replace: 'index.html', '/' | prepend: site.baseurl | replace: '//', '/' }}">
       <li class="waves-effect">{{ page }}</li>
       </a>
     {% else %}
-    <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">
+    <a href="{{ site.paginate_path | replace: 'index.html', '/' | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">
       <li class="waves-effect">{{ page }}</li>
       </a>
     {% endif %}

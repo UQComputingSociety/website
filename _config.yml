@@ -12,6 +12,8 @@ twitter_username: uqcomputing
 markdown: kramdown
 
 paginate: 5
+paginate_path: "/page:num"
+
 gems:
   - jekyll-sitemap
   - jekyll-paginate

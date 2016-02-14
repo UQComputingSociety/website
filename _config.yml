@@ -17,3 +17,4 @@ paginate_path: "/page:num/"
 gems:
   - jekyll-sitemap
   - jekyll-paginate
+exclude: [vendor]

@@ -28,17 +28,17 @@ We are the senate.
     </div>
     <div class="profile col s12 m6 l3">
         <img class="profile-img" src="{{site.baseurl}}/img/vice_president.jpg">
-        <span class="name">Simon Victory</span><br>
+        <span class="name">Mitchell Grice</span><br>
         <span class="role">Vice President</span>
     </div>
     <div class="profile col s12 m6 l3">
         <img class="profile-img" src="{{site.baseurl}}/img/secretary.jpg">
-        <span class="name">Mitchell Grice</span><br>
+        <span class="name">Simon Victory</span><br>
         <span class="role">Secretary</span>
     </div>
     <div class="profile col s12 m6 l3">
         <img class="profile-img" src="{{site.baseurl}}/img/treasurer.jpg">
-        <span class="name">Traitor</span><br>
+        <span class="name">Catherine Shield</span><br>
         <span class="role">Treasurer</span>
     </div>
 </div>

@@ -7,14 +7,14 @@ Would you like to showcase your project? If so please produce a high
 quality image of size 1000x750px and add it to `img/showcase/`.
 
 Once you've produced the image add the below snippet to 
-`_includes/showcase_content.html` replacing [Project Title], [URL], and
-[Description] with your own information.
+`_includes/showcase_content.html` replacing [IMG_NAME], [Project Title], 
+[URL], and [Description] with your own information.
 
 ```
 <div class="col s12 m6 l4">
   <div class="card small">
     <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="img/showcase/inciteful.jpg">
+      <img class="activator" src="img/showcase/[IMG_NAME]">
     </div>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">

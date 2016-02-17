@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1384px" height="1621px" viewBox="0 0 1384 1621" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>hexagon1 copy 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path id="path-1" d="M477.043,193.205 L378.575,22.677 C370.601,8.875 355.892,0.385 339.968,0.385 L143.041,0.385 C127.118,0.385 112.413,8.875 104.433,22.677 L5.971,193.205 C-1.99,207.006 -1.99,223.99 5.971,237.793 L104.433,408.336 C112.413,422.138 127.118,430.629 143.041,430.629 L339.967,430.629 C355.892,430.629 370.601,422.138 378.574,408.336 L477.043,237.793 C485.003,223.99 485.003,207.006 477.043,193.205 L477.043,193.205 Z"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="hexagon1-+-{-+-}" sketch:type="MSLayerGroup" transform="translate(57.000000, 74.000000)">
+            <g id="hexagon1" fill="#3498DB" sketch:type="MSShapeGroup">
+                <path d="M485.913634,197.335437 L385.614618,23.1618007 C377.492341,9.06473435 362.509826,0.39323073 346.289719,0.39323073 L145.700853,0.39323073 C129.481764,0.39323073 114.503324,9.06473435 106.374936,23.1618007 L6.08203099,197.335437 C-2.02700413,211.431482 -2.02700413,228.778574 6.08203099,242.876662 L106.374936,417.065619 C114.503324,431.162685 129.481764,439.83521 145.700853,439.83521 L346.2887,439.83521 C362.509826,439.83521 377.492341,431.162685 385.613599,417.065619 L485.913634,242.876662 C494.021651,228.778574 494.021651,211.431482 485.913634,197.335437 L485.913634,197.335437 Z" id="Shape"></path>
+            </g>
+            <text id="{" sketch:type="MSTextLayer" font-family="Consolas" font-size="292.795175" font-weight="normal" fill="#FFFFFF">
+                <tspan x="84.5433884" y="289.198694">{</tspan>
+            </text>
+            <text id="}" sketch:type="MSTextLayer" font-family="Consolas" font-size="292.795175" font-weight="normal" fill="#FFFFFF">
+                <tspan x="246.5" y="289.198694">}</tspan>
+            </text>
+        </g>
+        <g id="hexagon1-copy" sketch:type="MSLayerGroup" transform="translate(879.000000, 1004.375000)" fill="#3498DB">
+            <path d="M477.043,193.205 L378.575,22.677 C370.601,8.875 355.892,0.385 339.968,0.385 L143.041,0.385 C127.118,0.385 112.413,8.875 104.433,22.677 L5.971,193.205 C-1.99,207.006 -1.99,223.99 5.971,237.793 L104.433,408.336 C112.413,422.138 127.118,430.629 143.041,430.629 L339.967,430.629 C355.892,430.629 370.601,422.138 378.574,408.336 L477.043,237.793 C485.003,223.99 485.003,207.006 477.043,193.205 L477.043,193.205 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+        </g>
+        <text id="{-copy" sketch:type="MSTextLayer" font-family="Consolas" font-size="288" font-weight="normal" fill="#2F312E">
+            <tspan x="962" y="1289.375">{</tspan>
+        </text>
+        <text id="}" sketch:type="MSTextLayer" font-family="Consolas" font-size="288" font-weight="normal" fill="#2F312E">
+            <tspan x="1121" y="1289.375">}</tspan>
+        </text>
+        <text id="UQ-Computing" sketch:type="MSTextLayer" font-family="Helvetica" font-size="64" font-weight="bold" fill="#5FC9F3">
+            <tspan x="895" y="1553">UQ Computing</tspan>
+        </text>
+        <text id="UQ-Computing-Copy" sketch:type="MSTextLayer" font-family="Helvetica" font-size="64" font-weight="bold" fill="#5FC9F3">
+            <tspan x="73" y="622">UQ Computing</tspan>
+        </text>
+        <g id="hexagon1-copy-3" sketch:type="MSLayerGroup" transform="translate(41.000000, 1004.000000)">
+            <g id="Shape">
+                <use fill="#3498DB" fill-rule="evenodd" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+                <use fill="none" xlink:href="#path-1"></use>
+            </g>
+        </g>
+        <text id="{-copy-3" sketch:type="MSTextLayer" font-family="Consolas" font-size="288" font-weight="normal" fill="#FFFFFF">
+            <tspan x="124" y="1289.6875">{</tspan>
+        </text>
+        <text id="}-copy" sketch:type="MSTextLayer" font-family="Consolas" font-size="288" font-weight="normal" fill="#FFFFFF">
+            <tspan x="283" y="1289.6875">}</tspan>
+        </text>
+        <text id="UQ-Computing-Copy-3" sketch:type="MSTextLayer" font-family="Helvetica" font-size="64" font-weight="bold" fill="#5FC9F3">
+            <tspan x="57" y="1553">UQ Computing</tspan>
+        </text>
+        <g id="hexagon1-copy-2" sketch:type="MSLayerGroup" transform="translate(863.000000, 74.000000)" fill="#2F312E">
+            <path d="M477.043,193.205 L378.575,22.677 C370.601,8.875 355.892,0.385 339.968,0.385 L143.041,0.385 C127.118,0.385 112.413,8.875 104.433,22.677 L5.971,193.205 C-1.99,207.006 -1.99,223.99 5.971,237.793 L104.433,408.336 C112.413,422.138 127.118,430.629 143.041,430.629 L339.967,430.629 C355.892,430.629 370.601,422.138 378.574,408.336 L477.043,237.793 C485.003,223.99 485.003,207.006 477.043,193.205 L477.043,193.205 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+        </g>
+        <text id="{-copy-2" sketch:type="MSTextLayer" font-family="Consolas" font-size="288" font-weight="normal" fill="#3498DB">
+            <tspan x="946" y="359">{</tspan>
+        </text>
+        <text id="}-copy-2" sketch:type="MSTextLayer" font-family="Consolas" font-size="288" font-weight="normal" fill="#3498DB">
+            <tspan x="1105" y="359">}</tspan>
+        </text>
+        <text id="UQ-Computing-Copy-2" sketch:type="MSTextLayer" font-family="Helvetica" font-size="64" font-weight="bold" fill="#5FC9F3">
+            <tspan x="879" y="622.625">UQ Computing</tspan>
+        </text>
+    </g>
+</svg>

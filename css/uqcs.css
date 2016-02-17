@@ -19,7 +19,7 @@
     background-color: black;
     background-image: url('http://peek.space/art/earth-lights-lrg/full.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .logo

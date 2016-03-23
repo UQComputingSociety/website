@@ -49,26 +49,31 @@ Lastly, a massive thank you to our sponsors who make the events at UQCS possible
 
 
 <div class="row">
-    <div class="col s12 m6 l3">
+    <div class="col s12 m6 l2 push-l1">
         <a href="http://accenture.com.au/">
-        <img class="sponsor-img" src="{{site.baseurl}}/img/sponsors/accenture.png">
+        <img class="sponsor-img" src="/img/sponsors/accenture.png">
         </a>
     </div>
-    <div class="col s12 m6 l3">
+    <div class="col s12 m6 l2  push-l1">
         <a href="http://atlassian.com">
-        <img class="sponsor-img" src="{{site.baseurl}}/img/sponsors/atlassian.png">
+        <img class="sponsor-img" src="/img/sponsors/atlassian.png">
     </a>
     </div>
-    <div class="col s12 m6 l3">
+    <div class="col s12 m6 l2  push-l1">
         <a href="http://ilab.com.au">
 
-        <img class="sponsor-img" src="{{site.baseurl}}/img/sponsors/ilab.png">
+        <img class="sponsor-img" src="/img/sponsors/ilab.png">
     </a>
     </div>
-    <div class="col s12 m6 l3">
+    <div class="col s12 m6 l2  push-l1">
         <a href="https://www.tanda.co">
-        <img class="sponsor-img" src="{{site.baseurl}}/img/sponsors/tanda.png">
+        <img class="sponsor-img" src="/img/sponsors/tanda.png">
     </a>
+    </div>
+    <div class="col s12 m6 l2 push-m3  push-l1">
+        <a href="http://polymathian.com">
+        <img class="sponsor-img" src="http://polymathian.com/static/img/polymathian-industrial-mathematics-large.png">
+        </a>
     </div>
 </div>
 

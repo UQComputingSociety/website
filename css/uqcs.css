@@ -80,3 +80,13 @@
 {
     color: #3498db !important;
 }
+
+.details-box{
+    border: 1px solid #3D403C;
+    background-color: #E1E1E1;
+    padding: 15px;
+}
+
+img{
+    max-width: 900px;
+}

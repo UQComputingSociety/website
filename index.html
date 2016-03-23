@@ -20,7 +20,7 @@ layout: index
     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
   </h2>
   <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div>
-    <div class="post-content">{{ post.content | split: "<!--more-->" | first}}
+    <div class="post-content">{{ post.excerpt | split: "<!--more-->" | first}}
     <div class="read-more">    
 {% if post.content contains "<!--more-->" %}
       <a href="{{ post.url | prepend: site.baseurl }}">Read more</a>

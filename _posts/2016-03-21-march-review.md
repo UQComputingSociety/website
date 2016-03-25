@@ -3,7 +3,6 @@ layout: post
 title: March Review
 ---
 
-### Market Day
 2016 for the UQ Computing Society has started off big! In just five hours on market day, 200 of you signed up, doubling last years market day registrations, and more than last years total number of members. On the day, UQCS’s custom payment suffered a few minor glitches however it reduced membership registrations from 3+ minutes to a mere 90 seconds!
 
 ### Launch Event

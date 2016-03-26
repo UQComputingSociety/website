@@ -87,6 +87,6 @@
     padding: 15px;
 }
 
-img{
-    max-width: 900px;
+.post img{
+    width: 100%;
 }

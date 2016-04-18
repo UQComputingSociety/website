@@ -18,7 +18,7 @@ We develop, hack and ultimately have fun.
 
 ## The Committee
 
-We are the senate.
+Our four executive roles:
 
 <div class="row">
     <div class="profile col s12 m6 l3">
@@ -43,6 +43,10 @@ We are the senate.
     </div>
 </div>
 
+Our general committe members are
+- Rachel Catchpoole
+- Ainsley Nand
+- Dragan Marjanovic
 
 ## Our Sponsors
 Lastly, a massive thank you to our sponsors who make the events at UQCS possible.

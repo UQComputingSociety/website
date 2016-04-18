@@ -44,9 +44,10 @@ Our four executive roles:
 </div>
 
 Our general committe members are
-- Rachel Catchpoole
-- Ainsley Nand
-- Dragan Marjanovic
+
+* Rachel Catchpoole
+* Dragan Marjanovic
+* Ainsley Nand
 
 ## Our Sponsors
 Lastly, a massive thank you to our sponsors who make the events at UQCS possible.

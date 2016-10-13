@@ -31,7 +31,7 @@ We develop, hack and ultimately have fun.
     </div>
     <div class="profile col s12 m6 l3">
         <img class="profile-img" src="{{site.baseurl}}/img/treasurer.jpg">
-        <span class="name">Catherine Shield (@cshield)</span><br>
+        <span class="name">Catherine Shield (@cat)</span><br>
         <span class="role">Treasurer</span>
     </div>
     <div class="profile col s12 m6 l3">

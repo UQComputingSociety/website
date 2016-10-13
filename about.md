@@ -40,7 +40,7 @@ We develop, hack and ultimately have fun.
         <span class="role">General Committee</span>
     </div>
     <div class="profile col s12 m6 l3">
-        <img class="profile-img" src="{{site.baseurl}}/img/csa.jpg">
+        <img class="profile-img" src="{{site.baseurl}}/img/csa.png">
         <span class="name">Cameron Aavik (@csa)</span><br>
         <span class="role">General Committee</span>
     </div>

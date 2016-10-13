@@ -18,61 +18,67 @@ We develop, hack and ultimately have fun.
 
 ## The Committee
 
-Our four executive roles:
-
 <div class="row">
     <div class="profile col s12 m6 l3">
         <img class="profile-img" src="{{site.baseurl}}/img/president.jpg">
-        <span class="name">Tom Manderson</span><br>
+        <span class="name">Tom Manderson (@trm)</span><br>
         <span class="role">President</span>
     </div>
     <div class="profile col s12 m6 l3">
-        <img class="profile-img" src="{{site.baseurl}}/img/vice_president.jpg">
-        <span class="name">Mitchell Grice</span><br>
-        <span class="role">Vice President</span>
-    </div>
-    <div class="profile col s12 m6 l3">
         <img class="profile-img" src="{{site.baseurl}}/img/secretary.jpg">
-        <span class="name">Simon Victory</span><br>
+        <span class="name">Dragan Marjanovic (@dmarj97)</span><br>
         <span class="role">Secretary</span>
     </div>
     <div class="profile col s12 m6 l3">
         <img class="profile-img" src="{{site.baseurl}}/img/treasurer.jpg">
-        <span class="name">Catherine Shield</span><br>
+        <span class="name">Catherine Shield (@cshield)</span><br>
         <span class="role">Treasurer</span>
     </div>
+    <div class="profile col s12 m6 l3">
+        <img class="profile-img" src="{{site.baseurl}}/img/ainz.jpg">
+        <span class="name">Ainsley Nand (@ainz)</span><br>
+        <span class="role">General Committee</span>
+    </div>
+    <div class="profile col s12 m6 l3">
+        <img class="profile-img" src="{{site.baseurl}}/img/csa.jpg">
+        <span class="name">Cameron Aavik (@csa)</span><br>
+        <span class="role">General Committee</span>
+    </div>
+    <div class="profile col s12 m6 l3">
+        <img class="profile-img" src="{{site.baseurl}}/img/gricey.jpg">
+        <span class="name">Mitchell Grice (@gricey)</span><br>
+        <span class="role">General Committee</span>
+    </div>
+    <div class="profile col s12 m6 l3">
+        <img class="profile-img" src="{{site.baseurl}}/img/mcoot.jpg">
+        <span class="name">Joseph Spearritt (@mcoot)</span><br>
+        <span class="role">General Committee</span>
+    </div>
 </div>
-
-Our general committe members are
-
-* Rachel Catchpoole
-* Dragan Marjanovic
-* Ainsley Nand
 
 ## Our Sponsors
 Lastly, a massive thank you to our sponsors who make the events at UQCS possible.
 
 
 <div class="row">
-    <div class="col s12 m6 l2 push-l1">
-        <a href="http://accenture.com.au/">
-        <img class="sponsor-img" src="/img/sponsors/accenture.png">
-        </a>
-    </div>
     <div class="col s12 m6 l2  push-l1">
         <a href="http://atlassian.com">
         <img class="sponsor-img" src="/img/sponsors/atlassian.png">
     </a>
     </div>
     <div class="col s12 m6 l2  push-l1">
-        <a href="http://ilab.com.au">
-
-        <img class="sponsor-img" src="/img/sponsors/ilab.png">
+        <a href="https://www.facebook.com/">
+        <img class="sponsor-img" src="https://en.facebookbrand.com/wp-content/uploads/2016/05/wordmark.png">
     </a>
     </div>
     <div class="col s12 m6 l2  push-l1">
         <a href="https://www.tanda.co">
         <img class="sponsor-img" src="/img/sponsors/tanda.png">
+    </a>
+    </div>
+    <div class="col s12 m6 l2  push-l1">
+        <a href="https://www.technologyonecorp.com/">
+        <img class="sponsor-img" src="/img/sponsors/TechnologyOne.jpg>
     </a>
     </div>
     <div class="col s12 m6 l2 push-m3  push-l1">

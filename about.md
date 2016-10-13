@@ -78,7 +78,7 @@ Lastly, a massive thank you to our sponsors who make the events at UQCS possible
     </div>
     <div class="col s12 m6 l2  push-l1">
         <a href="https://www.technologyonecorp.com/">
-        <img class="sponsor-img" src="/img/sponsors/TechnologyOne.jpg>
+        <img class="sponsor-img" src="/img/sponsors/technology_one.jpg">
     </a>
     </div>
     <div class="col s12 m6 l2 push-m3  push-l1">

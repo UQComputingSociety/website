@@ -19,17 +19,17 @@ We develop, hack and ultimately have fun.
 ## The Committee
 
 <div class="row">
-    <div class="profile col s12 m6 l3">
+    <div class="profile col s12 m6 l4">
         <img class="profile-img" src="{{site.baseurl}}/img/president.jpg">
         <span class="name">Tom Manderson (@trm)</span><br>
         <span class="role">President</span>
     </div>
-    <div class="profile col s12 m6 l3">
+    <div class="profile col s12 m6 l4">
         <img class="profile-img" src="{{site.baseurl}}/img/secretary.jpg">
         <span class="name">Dragan Marjanovic (@dmarj97)</span><br>
         <span class="role">Secretary</span>
     </div>
-    <div class="profile col s12 m6 l3">
+    <div class="profile col s12 m6 l4">
         <img class="profile-img" src="{{site.baseurl}}/img/treasurer.jpg">
         <span class="name">Catherine Shield (@cat)</span><br>
         <span class="role">Treasurer</span>

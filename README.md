@@ -35,8 +35,8 @@ Once you've produced the image add the below snippet to
 </div>
 ```
 
-Done that? Now just send us a pull request! Don't know how? 
-Email me at dmarj97@gmail.com for help.
+Done that? Now just send us a pull request! Don't know how?
+Email us at contact@uqcs.org.au for help, or ask in Slack.
 
 
 ## Website Content Requests and Bugs

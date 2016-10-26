@@ -21,37 +21,37 @@ We develop, hack and ultimately have fun.
 <div class="row">
     <div class="profile col s12 m6 l4">
         <img class="profile-img" src="{{site.baseurl}}/img/president.jpg">
-        <span class="name">Tom Manderson (@trm)</span><br>
+        <span class="name">Tom Manderson (<a href="https://uqcs.slack.com/messages/@trm/">@trm</a>)</span><br>
         <span class="role">President</span>
     </div>
     <div class="profile col s12 m6 l4">
         <img class="profile-img" src="{{site.baseurl}}/img/secretary.jpg">
-        <span class="name">Dragan Marjanovic (@dmarj97)</span><br>
+        <span class="name">Dragan Marjanovic (<a href="https://uqcs.slack.com/messages/@dmarj97/">@dmarj97</a>)</span><br>
         <span class="role">Secretary</span>
     </div>
     <div class="profile col s12 m6 l4">
         <img class="profile-img" src="{{site.baseurl}}/img/treasurer.jpg">
-        <span class="name">Catherine Shield (@cat)</span><br>
+        <span class="name">Catherine Shield (<a href="https://uqcs.slack.com/messages/@dmarj97/">@cat</a>)</span><br>
         <span class="role">Treasurer</span>
     </div>
     <div class="profile col s12 m6 l3">
         <img class="profile-img" src="{{site.baseurl}}/img/ainz.jpg">
-        <span class="name">Ainsley Nand (@ainz)</span><br>
+        <span class="name">Ainsley Nand (<a href="https://uqcs.slack.com/messages/@ainz/">@ainz</a>)</span><br>
         <span class="role">General Committee</span>
     </div>
     <div class="profile col s12 m6 l3">
         <img class="profile-img" src="{{site.baseurl}}/img/csa.png">
-        <span class="name">Cameron Aavik (@csa)</span><br>
+        <span class="name">Cameron Aavik (<a href="https://uqcs.slack.com/messages/@csa/">@csa</a>)</span><br>
         <span class="role">General Committee</span>
     </div>
     <div class="profile col s12 m6 l3">
         <img class="profile-img" src="{{site.baseurl}}/img/gricey.jpg">
-        <span class="name">Mitchell Grice (@gricey)</span><br>
+        <span class="name">Mitchell Grice (<a href="https://uqcs.slack.com/messages/@gricey/">@gricey</a>)</span><br>
         <span class="role">General Committee</span>
     </div>
     <div class="profile col s12 m6 l3">
         <img class="profile-img" src="{{site.baseurl}}/img/mcoot.jpg">
-        <span class="name">Joseph Spearritt (@mcoot)</span><br>
+        <span class="name">Joseph Spearritt (<a href="https://uqcs.slack.com/messages/@mcoot/">@mcoot</a>)</span><br>
         <span class="role">General Committee</span>
     </div>
 </div>

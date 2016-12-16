@@ -81,10 +81,5 @@ Lastly, a massive thank you to our sponsors who make the events at UQCS possible
         <img class="sponsor-img" src="/img/sponsors/technology_one.jpg">
     </a>
     </div>
-    <div class="col s12 m6 l2 push-m3  push-l1">
-        <a href="http://polymathian.com">
-        <img class="sponsor-img" src="https://polymathian.com/static/img/polymathian-industrial-mathematics-large.png">
-        </a>
-    </div>
 </div>
 

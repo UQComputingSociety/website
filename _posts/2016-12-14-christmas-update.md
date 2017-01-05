@@ -1,4 +1,7 @@
-# Christmas Update
+---
+layout: post
+title: Christmas Update
+---
 
 Hey all,
 
@@ -11,18 +14,15 @@ First off, we're running a design competition for next year's shirts. If you've 
 something you want to see on UQCS shirts, submit an entry by the 13th of January.
 Voting will then commence on the 15th of January for the shirts to be available from
 Market Day next year.
+                        
+<div class="details-box">
+<strong>Coming Up</strong><br/>
+<strong>What</strong>: UQCS Shirt Design Submission<br />
+<strong>When:</strong> 6PM Friday 13th January 2016<br />
+<strong>How:</strong>On Slack to a committee member or email contact@uqcs.org.au<br/>
+</div>
 
-<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" class="mcnBoxedTextContentContainer">
-                        
-                        
-                                <tbody><tr>
-                                    <td valign="top" class="mcnTextContent" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #606060;font-family: Helvetica;font-size: 15px;line-height: 150%;text-align: left;">
-                                        <strong>What: UQCS Shirt Design Submission</strong><br>
-<strong>When: </strong>6PM Friday 13th January 2016<br>
-<strong>How: </strong>On Slack to a committee member or email contact@uqcs.org.au
-                                    </td>
-                                </tr>
-                            </table>
+
 
 <hr>
 ## Public Meeting Minutes

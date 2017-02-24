@@ -1,6 +1,7 @@
 source "https://rubygems.org"
-ruby '2.3.0'
+ruby '2.3.3'
 gem 'jekyll'
 gem 'therubyracer'
 gem 'foundation'
 gem 'jekyll-sitemap'
+gem 'jekyll-paginate'

@@ -5,6 +5,8 @@ title: Shirt Preorders + Market Day
 
 Happy 2017 UQCS! Semester 1 is about to start, so we hope you've had a relaxing holiday.
 
+<!--more-->
+
 ## Market Day
 
 Market day is arriving yet again so it's time to renew your UQCS memberships. We have our most active year yet planned for you (and, yes, free pizza will continue to feature). As usual, UQCS annual membership is only $5.

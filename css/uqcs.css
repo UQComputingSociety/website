@@ -17,7 +17,7 @@
 
     color: white;
     background-color: black;
-    background-image: url('/img/earth_img.jpg'); /* Courtesy of http://peek.space/art/earth-lights-lrg/full.jpg */
+    background-image: url('/img/background_grey.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -90,3 +90,11 @@
 .post img{
     width: 100%;
 }
+
+.page-footer {
+    background-color: black;
+    background-image: url('/img/background_grey.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

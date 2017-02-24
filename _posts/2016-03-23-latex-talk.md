@@ -11,6 +11,8 @@ As LaTeX is generally not picked up from one talk there is luckily plenty of
 resources online which can assist you on your LaTeX journey but more importantly
 you can find #latex on the UQCS Slack where you can get help and ask questions.
 
+<!--more-->
+
 ![LaTex]({{ site.url }}/img/posts/latex2016.jpg)
 
 

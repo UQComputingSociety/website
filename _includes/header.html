@@ -5,11 +5,17 @@
       <a href="/" class="brand-logo"><!-- UQ Computing Society -->
           <img class="logo valign" src="/img/logo.png">
       </a>
+
+      <ul id="share" class="hide-on-med-and-down" style="padding-left: 53px">
+          {% include share.html %}
+      </ul>
+
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 
       <ul id="nav-mobile" class="right hide-on-med-and-down">
           {% include main_nav.html %}
       </ul>
+
       <ul class="side-nav" id="mobile-demo">
           {% include side_nav.html %}
       </ul>

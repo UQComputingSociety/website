@@ -1,5 +1,6 @@
 # UQCS Website
 [![Build Status](https://jenkins.uqcs.org.au/job/website/badge/icon)](https://jenkins.uqcs.org.au/job/website/)
+
 The website of The University of Queensland Computing Society.
 
 ## Showcasing your project

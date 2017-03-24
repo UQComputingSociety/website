@@ -1,6 +1,18 @@
 /*UQCS Website Style Sheet*/
 /*Author: Dragan Marjanovic*/
 
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.container {
+    flex: 1 0 auto;
+}
 
 .pagination
 {
@@ -97,4 +109,3 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-

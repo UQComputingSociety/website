@@ -110,6 +110,24 @@ body {
     background-size: cover;
 }
 
+@media only screen and (min-width: 1200px) {
+    .show-on-extra-large {
+        display: block !important;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .hide-on-large-and-down {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .show-on-large-and-up {
+      display: block !important;
+    }
+}
+
 .post-meta {
     font-weight: bold
 }

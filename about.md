@@ -4,7 +4,7 @@ layout: page
 # About
 The UQ Computing Society provides a fun, social and challenging environment for students interested in coding and technology.
 
-> UQCS is hands down, the best value for money club on campus - Dragan Marjanovic
+> UQCS is life-changing for anyone even remotely technologically minded. The sense of community, the topical events and the wealth of knowledge are all incredible, not to mention the mountains of pizza. Trust me, it'll be the best value you've ever gotten out of $5. - Nick Lambourne
 
 
 ## What do we do?

@@ -13,6 +13,16 @@ You can contribute code by forking the repository, making your changes and creat
 Want help with creating a pull request? No problem!
 Email us at contact@uqcs.org.au for help, or ask in Slack.
 
+### Building locally
+The site is made in Jekyll, to build it:
+
+- Install [Ruby](https://www.ruby-lang.org/en/) >= 2.3.3
+- Install the bundler package manager using gem `gem install bundler`
+- Navigate into the website repository and install the requirements using bundler `bundle install`
+- You can run the site locally while you develop using `jekyll serve`
+
+The final website is built by our Jenkins server using `jekyll build`
+
 ### Showcasing your project
 
 Would you like to showcase your project? If so please produce a high

@@ -126,4 +126,7 @@ body {
     .show-on-large-and-up {
       display: block !important;
     }
+
+.post-meta {
+    font-weight: bold
 }

@@ -61,20 +61,9 @@ Lastly, a massive thank you to our sponsors who make the events at UQCS possible
 
 
 <div class="row">
-    <!--
     <div class="col s12 m6 l2  push-l1">
         <a href="http://atlassian.com">
         <img class="sponsor-img" src="/img/sponsors/atlassian.png">
-    </a>
-    </div>
-    <div class="col s12 m6 l2  push-l1">
-        <a href="https://www.facebook.com/">
-        <img class="sponsor-img" src="https://en.facebookbrand.com/wp-content/uploads/2016/05/wordmark.png">
-    </a>
-    </div>
-    <div class="col s12 m6 l2  push-l1">
-        <a href="https://www.tanda.co">
-        <img class="sponsor-img" src="/img/sponsors/tanda.png">
     </a>
     </div>
     <div class="col s12 m6 l2  push-l1">
@@ -82,6 +71,15 @@ Lastly, a massive thank you to our sponsors who make the events at UQCS possible
         <img class="sponsor-img" src="/img/sponsors/technology_one.jpg">
     </a>
     </div>
-    -->
+    <div class="col s12 m6 l2  push-l1">
+        <a href="http://www.ilabaccelerator.com/">
+        <img class="sponsor-img" src="/img/sponsors/ilab.png">
+    </a>
+    </div>
+    <div class="col s12 m6 l2  push-l1">
+        <a href="https://redbacktech.com/">
+        <img class="sponsor-img" src="/img/sponsors/redback.jpg">
+    </a>
+    </div>
 </div>
 

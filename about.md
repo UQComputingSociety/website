@@ -62,24 +62,24 @@ Lastly, a massive thank you to our sponsors who make the events at UQCS possible
 
 <div class="row">
     <div class="col s12 m6 l3">
-        <a href="http://atlassian.com">
-        <img class="sponsor-img" src="/img/sponsors/atlassian.png">
-    </a>
+        <a href="http://atlassian.com" target="_blank">
+			<img class="sponsor-img" src="/img/sponsors/atlassian.png">
+		</a>
     </div>
     <div class="col s12 m6 l3">
-        <a href="https://polymathian.com">
-        <img class="sponsor-img" src="/img/sponsors/polymathian.png">
-    </a>
+        <a href="https://polymathian.com" target="_blank">
+			<img class="sponsor-img" src="/img/sponsors/polymathian.png">
+		</a>
     </div>
     <div class="col s12 m6 l3">
-        <a href="http://www.ilabaccelerator.com/">
-        <img class="sponsor-img" src="/img/sponsors/ilab.png">
-    </a>
+        <a href="http://www.ilabaccelerator.com/" target="_blank">
+			<img class="sponsor-img" src="/img/sponsors/ilab.png">
+		</a>
     </div>
     <div class="col s12 m6 l3">
-        <a href="https://redbacktech.com/">
-        <img class="sponsor-img" src="/img/sponsors/redback.png">
-    </a>
+        <a href="https://redbacktech.com/" target="_blank">
+			<img class="sponsor-img" src="/img/sponsors/redback.png">
+		</a>
     </div>
 </div>
 

@@ -78,7 +78,7 @@ Lastly, a massive thank you to our sponsors who make the events at UQCS possible
     </div>
     <div class="col s12 m6 l2  push-l1">
         <a href="https://redbacktech.com/">
-        <img class="sponsor-img" src="/img/sponsors/redback.jpg">
+        <img class="sponsor-img" src="/img/sponsors/redback.png">
     </a>
     </div>
 </div>

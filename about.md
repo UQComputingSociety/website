@@ -51,7 +51,7 @@ We develop, hack and ultimately have fun.
     </div>
     <div class="profile col s12 m6 l3">
         <img class="profile-img" src="{{site.baseurl}}/img/mcoot.jpg">
-        <span class="name">Joseph Spearritt (<a href="https://uqcs.slack.com/messages/@mcoot/" target="_blank">@mcoot</a>)</span><br>
+        <span class="name">Joseph Spearritt (<a href="https://uqcs.slack.com/messages/@mqt/" target="_blank">@mqt</a>)</span><br>
         <span class="role">General Committee</span>
     </div>
 </div>

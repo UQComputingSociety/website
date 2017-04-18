@@ -38,11 +38,3 @@ As promised, we have also included the slides themselves in the Resources sectio
 
 - Come join us on our Slack: 900 members, 100+ channels and more memes than you can poke a stick at ([uqcs.slack.com](https://uqcs.slack.com)).
 - Do you have an idea for our next event? Let us know in the events or uqcs-meta channels on Slack!
-
-<div class="details-box">
-<strong>Coming Up</strong><br/>
-<strong>What</strong>: Hack 'n' Chat<br />
-<strong>When:</strong> Wednesday 12th April, 5 - 7pm<br />
-<strong>Where:</strong> ITLX - UQ's General Purpose South<br />
-<strong>Why:</strong> Come chat with passionate people about what you're working on. Or just take advantage of the potential for free pizza.<br/>
-</div>

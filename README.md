@@ -1,7 +1,29 @@
 # UQCS Website
+[![Build Status](https://jenkins.uqcs.org.au/job/website/badge/icon)](https://jenkins.uqcs.org.au/job/website/)
+
 The website of The University of Queensland Computing Society.
 
-## Showcasing your project
+This site is made in Jekyll which is compiled to static files on Jenkins (see the build status icon) and then hosted on the UQ Cloud.
+
+## Contributing
+The UQCS site is a place to show off both the club itself, and the work its members. You can contribute ideas, bugs or suggestions by clicking the Issues tab above and creating a new issue.
+
+You can contribute code by forking the repository, making your changes and creating a pull request. It's encouraged to create an issue for the changes you plan on making in your pull request and you should mention the IDs of any issues you work on in your pull request description.
+
+Want help with creating a pull request? No problem!
+Email us at contact@uqcs.org.au for help, or ask in Slack.
+
+### Building locally
+The site is made in Jekyll, to build it:
+
+- Install [Ruby](https://www.ruby-lang.org/en/) >= 2.3.3
+- Install the bundler package manager using gem `gem install bundler`
+- Navigate into the website repository and install the requirements using bundler `bundle install`
+- You can run the site locally while you develop using `jekyll serve`
+
+The final website is built by our Jenkins server using `jekyll build`
+
+### Showcasing your project
 
 Would you like to showcase your project? If so please produce a high
 quality image of size 1000x750px and add it to `img/showcase/`.
@@ -35,14 +57,5 @@ Once you've produced the image add the below snippet to
 </div>
 ```
 
-Done that? Now just send us a pull request! Don't know how?
-Email us at contact@uqcs.org.au for help, or ask in Slack.
-
-
-## Website Content Requests and Bugs
-If you find a bug on the website or would like to request an article or content
-please select the issue tab and report the issue or what you would like. :)
-
-
 ## Copyright
-Copyright (c) 2016 UQ Computing Society
+Copyright (c) 2017 UQ Computing Society

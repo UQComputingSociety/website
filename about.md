@@ -4,7 +4,7 @@ layout: page
 # About
 The UQ Computing Society provides a fun, social and challenging environment for students interested in coding and technology.
 
-> UQCS is hands down, the best value for money club on campus - Dragan Marjanovic
+> UQCS is life-changing for anyone even remotely technologically minded. The sense of community, the topical events and the wealth of knowledge are all incredible, not to mention the mountains of pizza. Trust me, it'll be the best value you've ever gotten out of $5. - Nick Lambourne
 
 
 ## What do we do?
@@ -51,7 +51,7 @@ We develop, hack and ultimately have fun.
     </div>
     <div class="profile col s12 m6 l3">
         <img class="profile-img" src="{{site.baseurl}}/img/mcoot.jpg">
-        <span class="name">Joseph Spearritt (<a href="https://uqcs.slack.com/messages/@mcoot/" target="_blank">@mcoot</a>)</span><br>
+        <span class="name">Joseph Spearritt (<a href="https://uqcs.slack.com/messages/@mqt/" target="_blank">@mqt</a>)</span><br>
         <span class="role">General Committee</span>
     </div>
 </div>
@@ -61,27 +61,25 @@ Lastly, a massive thank you to our sponsors who make the events at UQCS possible
 
 
 <div class="row">
-    <!--
-    <div class="col s12 m6 l2  push-l1">
-        <a href="http://atlassian.com">
-        <img class="sponsor-img" src="/img/sponsors/atlassian.png">
-    </a>
+    <div class="col s12 m6 l3">
+        <a href="http://atlassian.com" target="_blank">
+			<img class="sponsor-img" src="/img/sponsors/atlassian.png">
+		</a>
     </div>
-    <div class="col s12 m6 l2  push-l1">
-        <a href="https://www.facebook.com/">
-        <img class="sponsor-img" src="https://en.facebookbrand.com/wp-content/uploads/2016/05/wordmark.png">
-    </a>
+    <div class="col s12 m6 l3">
+        <a href="https://polymathian.com" target="_blank">
+			<img class="sponsor-img" src="/img/sponsors/polymathian.png">
+		</a>
     </div>
-    <div class="col s12 m6 l2  push-l1">
-        <a href="https://www.tanda.co">
-        <img class="sponsor-img" src="/img/sponsors/tanda.png">
-    </a>
+    <div class="col s12 m6 l3">
+        <a href="http://www.ilabaccelerator.com/" target="_blank">
+			<img class="sponsor-img" src="/img/sponsors/ilab.png">
+		</a>
     </div>
-    <div class="col s12 m6 l2  push-l1">
-        <a href="https://www.technologyonecorp.com/">
-        <img class="sponsor-img" src="/img/sponsors/technology_one.jpg">
-    </a>
+    <div class="col s12 m6 l3">
+        <a href="https://redbacktech.com/" target="_blank">
+			<img class="sponsor-img" src="/img/sponsors/redback.png">
+		</a>
     </div>
-    -->
 </div>
 

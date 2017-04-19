@@ -9,6 +9,8 @@ Merry Christmas! We hope you're all having a fantastic holiday season and enjoyi
 a well earned break from uni. We've got a lot of exciting things lined up for next
 year, and we'll make sure to keep you informed of what's going on!
 
+<!--more-->
+
 ## Shirt Designs
 First off, we're running a design competition for next year's shirts. If you've got
 something you want to see on UQCS shirts, submit an entry by the 13th of January.

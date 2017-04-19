@@ -3,15 +3,23 @@
   <nav class="uqcs_grey">
     <div class="nav-wrapper container">
       <a href="/" class="brand-logo"><!-- UQ Computing Society -->
-          <img class="logo valign" src="/img/logo.png">
+          <svg height="40" width="45">
+              <image class="logo valign" xlink:href="/img/logo.svg" src="/img/logo.png" height="40" width="45" />
+          </svg>
       </a>
+
+      <ul id="share" class="hide-on-large-and-down" style="padding-left: 53px">
+          {% include share.html %}
+      </ul>
+
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        {% include main_nav.html %}
+          {% include main_nav.html %}
       </ul>
-        <ul class="side-nav" id="mobile-demo">
-            {% include side_nav.html %}
+
+      <ul class="side-nav" id="mobile-demo">
+          {% include side_nav.html %}
       </ul>
 
     </div>

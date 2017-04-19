@@ -1,6 +1,18 @@
 /*UQCS Website Style Sheet*/
 /*Author: Dragan Marjanovic*/
 
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.container {
+    flex: 1 0 auto;
+}
 
 .pagination
 {
@@ -17,7 +29,7 @@
 
     color: white;
     background-color: black;
-    background-image: url('/img/earth_img.jpg'); /* Courtesy of http://peek.space/art/earth-lights-lrg/full.jpg */
+    background-image: url('/img/background_grey.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -89,4 +101,33 @@
 
 .post img{
     width: 100%;
+}
+
+.page-footer {
+    background-color: black;
+    background-image: url('/img/background_grey.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (min-width: 1200px) {
+    .show-on-extra-large {
+        display: block !important;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .hide-on-large-and-down {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .show-on-large-and-up {
+      display: block !important;
+    }
+}
+
+.post-meta {
+    font-weight: bold
 }

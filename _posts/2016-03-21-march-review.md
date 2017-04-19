@@ -5,6 +5,8 @@ title: March Review
 
 2016 for the UQ Computing Society has started off big! In just five hours on market day, 200 of you signed up, doubling last years market day registrations, and more than last years total number of members. On the day, UQCS’s custom payment suffered a few minor glitches however it reduced membership registrations from 3+ minutes to a mere 90 seconds!
 
+<!--more-->
+
 ### Launch Event
 ![The 2016 UQCS launch event.]({{ site.url }}/img/posts/launch2016.jpg)
 Our first event was a casual meet and greet during week one of semester. More than half our members turned up and enjoyed pizza whilst meeting students from other disciplines and programs. The following week, UQCS teamed up with the Video Games Society (VGS) and QUGS (Queensland University Games Society) to co-host a four hour gaming session with even more pizza, of course.

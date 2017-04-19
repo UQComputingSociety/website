@@ -78,5 +78,12 @@ PLATFORMS
 DEPENDENCIES
   foundation
   jekyll
+  jekyll-paginate
   jekyll-sitemap
   therubyracer
+
+RUBY VERSION
+   ruby 2.3.3p222
+
+BUNDLED WITH
+   1.14.5

@@ -7,9 +7,10 @@ layout: index
 <!-- Featured Content Bar -->
 
 <div class="banner">
-    <h2>Create Change! Join UQ Computing Society!</h2>
-<!--     <a href="https://join.uqcs.org.au/"
-    class="waves-effect waves-light btn-large uqcs_blue">Join</a> -->
+    <svg height="192" width="215">
+        <image xlink:href="/img/logo.svg" src="/img/logo.png" alt="logo" height="192" width="215" />
+    </svg>
+    <h2>UQ Computing Society - 10 words, free pizza!</h2>
     <a href="https://slack.uqcs.org.au/"
     class="waves-effect waves-light btn-large uqcs_blue">Join us on Slack!</a>
 </div>
@@ -18,11 +19,11 @@ layout: index
 
 {% for post in paginator.posts %}
 <div class="post">
-  <h2>
+  <h4>
     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-  </h2>
+  </h4>
   <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div>
-    <div class="post-content">{{ post.excerpt | split: "<!--more-->" | first}}
+    <div class="post-content">{{ post.excerpt }}
     <div class="read-more">    
 {% if post.content contains "<!--more-->" %}
       <a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
@@ -45,8 +46,8 @@ layout: index
     {% if page == paginator.page %}
       <li class="active uqcs_blue"><a href="#!">{{ page }}</a></li>
     {% elsif page == 1 %}
-    <a href="{{ paginator.previous_page_path | replace: 'index.html', '/' | prepend: site.baseurl | replace: '//', '/' }}">
-      <li class="waves-effect">{{ page }}</li>
+      <a href="/">
+        <li class="waves-effect">{{ page }}</li>
       </a>
     {% else %}
     <a href="{{ site.paginate_path | replace: 'index.html', '/' | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">

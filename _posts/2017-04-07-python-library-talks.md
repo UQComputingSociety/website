@@ -24,7 +24,7 @@ We covered a wide range of Python libraries, both from the standard library and 
 
 If you couldn't make it on the day or just want to relive the experience, we were lucky enough to be able to get a recording which I've embedded below.
 
-<!--- video here -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLjGNXiulWlORwZaH5DgIiI3zI2_lGItTz" frameborder="0" allowfullscreen></iframe>
 
 As promised, we have also included the slides themselves in the Resources section below. There are also some great suggestions for other Python libraries to check out.
 

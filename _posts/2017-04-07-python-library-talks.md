@@ -14,6 +14,7 @@ Our first set of lightning talks for the year went incredibly well. We saw plent
 Thanks everyone for coming along, it was great to see so many new attendees. I'd also like to thank our speakers: Mitch Grice, Lewis Bobberman and Nicholas Lambourne.
 
 We covered a wide range of Python libraries, both from the standard library and from PyPI:
+
 - JSON
 - Requests
 - Numpy

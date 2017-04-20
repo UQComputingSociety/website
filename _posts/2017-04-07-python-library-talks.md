@@ -31,7 +31,7 @@ As promised, we have also included the slides themselves in the Resources sectio
 
 ## Resources
 
-[Our slides from the talks.](https://uqcs.org.au/uploads/2017/python-library-talks.pdf)
+[Our slides from the talks.]({{site.baseurl}}/uploads/2017/python-library-talks.pdf)
 
 
 ## Reminders

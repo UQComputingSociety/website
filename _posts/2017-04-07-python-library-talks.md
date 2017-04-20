@@ -36,5 +36,5 @@ As promised, we have also included the slides themselves in the Resources sectio
 
 ## Reminders
 
-- Come join us on our Slack: 900 members, 100+ channels and more memes than you can poke a stick at ([uqcs.slack.com](https://uqcs.slack.com)).
+- Come join us on our Slack: 900 members, 100+ channels and more memes than you can poke a stick at ([https://slack.uqcs.org.au](https://slack.uqcs.org.au)).
 - Do you have an idea for our next event? Let us know in the events or uqcs-meta channels on Slack!

@@ -83,6 +83,11 @@ body {
     list-style: initial;
 }
 
+.navbar-fixed
+{
+    margin-bottom: 64px; /* Default height of Materialize Navbar */
+}
+
 .sponsor-img
 {
     width: 100%;

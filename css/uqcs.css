@@ -10,6 +10,10 @@ body {
     flex-flow: column nowrap;
 }
 
+.center {
+    text-align: center;
+}
+
 .container {
     flex: 1 0 auto;
 }

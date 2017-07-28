@@ -12,8 +12,7 @@ We develop, hack and ultimately have fun.
 
 * We are a very active society who meets regularly to learn, develop, hack and have fun. We provide education and resources that enable you to extend your interests.
 * Broaden your knowledge, learn new technologies and hone your skills at our regular workshops presented by fellow members.
-* Promote high quality software and practices and help fundraise with public 'installfests' of modern browsers, operating systems and UQ technologies.
-* Join one of our programming competition teams giving you a competitive edge whilst perfecting coding techniques.
+* Join one of our programming competitions and battle it out for glory and tech swag.
 * Let your inner hacker loose!
 
 ## The Committee
@@ -60,26 +59,5 @@ We develop, hack and ultimately have fun.
 Lastly, a massive thank you to our sponsors who make the events at UQCS possible.
 
 
-<div class="row">
-    <div class="col s12 m6 l3">
-        <a href="http://atlassian.com" target="_blank">
-			<img class="sponsor-img" src="/img/sponsors/atlassian.png">
-		</a>
-    </div>
-    <div class="col s12 m6 l3">
-        <a href="https://polymathian.com" target="_blank">
-			<img class="sponsor-img" src="/img/sponsors/polymathian.png">
-		</a>
-    </div>
-    <div class="col s12 m6 l3">
-        <a href="http://www.ilabaccelerator.com/" target="_blank">
-			<img class="sponsor-img" src="/img/sponsors/ilab.png">
-		</a>
-    </div>
-    <div class="col s12 m6 l3">
-        <a href="https://redbacktech.com/" target="_blank">
-			<img class="sponsor-img" src="/img/sponsors/redback.png">
-		</a>
-    </div>
-</div>
+{% include sponsors.html %}
 

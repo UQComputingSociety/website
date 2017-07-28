@@ -10,6 +10,10 @@ body {
     flex-flow: column nowrap;
 }
 
+.center {
+    text-align: center;
+}
+
 .container {
     flex: 1 0 auto;
 }
@@ -81,6 +85,11 @@ body {
 .main li
 {
     list-style: initial;
+}
+
+.navbar-fixed
+{
+    margin-bottom: 64px; /* Default height of Materialize Navbar */
 }
 
 .sponsor-img

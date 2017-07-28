@@ -7,7 +7,7 @@ layout: index
 <!-- Featured Content Bar -->
 
 <div class="banner">
-    <svg height="192" width="215">
+    <svg height="192" width="215" class="hide-on-med-and-down">
         <image xlink:href="/img/logo.svg" src="/img/logo.png" alt="logo" height="192" width="215" />
     </svg>
     <h2>UQ Computing Society - 10 words, free pizza!</h2>
@@ -66,4 +66,9 @@ layout: index
 
 <!-- Uncomment for RSS Feed -->
 <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
+    <br />
+    <br />
+    <p class="center">Our sponsors who make the events at UQCS possible:</p>
+    {% include sponsors.html %}
 </div>
+

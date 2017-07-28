@@ -19,6 +19,7 @@ The site is made in Jekyll, to build it:
 - Install [Ruby](https://www.ruby-lang.org/en/) >= 2.3.3
 - Install the bundler package manager using gem `gem install bundler`
 - Navigate into the website repository and install the requirements using bundler `bundle install`
+    - `bundle install` not working? Try `bundle update` first, this should fix most Gem installation issues (just make sure that you don't add the modified Gemfile.lock in your pull request)
 - You can run the site locally while you develop using `jekyll serve`
 
 The final website is built by our Jenkins server using `jekyll build`

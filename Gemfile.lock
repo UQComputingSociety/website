@@ -42,7 +42,7 @@ GEM
     jekyll-watch (1.2.0)
       listen (~> 2.7)
     kramdown (1.5.0)
-    libv8 (3.16.14.7)
+    libv8 (3.16.14.19)
     liquid (2.6.1)
     listen (2.8.5)
       celluloid (>= 0.15.2)
@@ -86,4 +86,4 @@ RUBY VERSION
    ruby 2.3.3p222
 
 BUNDLED WITH
-   1.14.5
+   1.15.4

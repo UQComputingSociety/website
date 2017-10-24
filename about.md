@@ -20,37 +20,37 @@ We develop, hack and ultimately have fun.
 <div class="row">
     <div class="profile col s12 m6 l4">
         <img class="profile-img" src="{{site.baseurl}}/img/president.jpg">
-        <span class="name">Tom Manderson (<a href="https://uqcs.slack.com/messages/@trm/" target="_blank">@trm</a>)</span><br>
+        <span class="name">Cameron Aavik (<a href="https://uqcs.slack.com/messages/@csa/" target="_blank">@csa</a>)</span><br>
         <span class="role">President</span>
     </div>
     <div class="profile col s12 m6 l4">
         <img class="profile-img" src="{{site.baseurl}}/img/secretary.jpg">
-        <span class="name">Dragan Marjanovic (<a href="https://uqcs.slack.com/messages/@dmarj97/" target="_blank">@dmarj97</a>)</span><br>
+        <span class="name">Max Bo (<a href="https://uqcs.slack.com/messages/@mb/" target="_blank">@mb</a>)</span><br>
         <span class="role">Secretary</span>
     </div>
     <div class="profile col s12 m6 l4">
         <img class="profile-img" src="{{site.baseurl}}/img/treasurer.jpg">
-        <span class="name">Catherine Shield (<a href="https://uqcs.slack.com/messages/@cat/" target="_blank">@cat</a>)</span><br>
+        <span class="name">Rob Kopel (<a href="https://uqcs.slack.com/messages/@rob/" target="_blank">@rob</a>)</span><br>
         <span class="role">Treasurer</span>
     </div>
     <div class="profile col s12 m6 l3">
-        <img class="profile-img" src="{{site.baseurl}}/img/ainz.jpg">
-        <span class="name">Ainsley Nand (<a href="https://uqcs.slack.com/messages/@ainz/" target="_blank">@ainz</a>)</span><br>
+        <img class="profile-img" src="{{site.baseurl}}/img/trm.jpg">
+        <span class="name">Tom Manderson (<a href="https://uqcs.slack.com/messages/@trm/" target="_blank">@trm</a>)</span><br>
         <span class="role">General Committee</span>
     </div>
     <div class="profile col s12 m6 l3">
-        <img class="profile-img" src="{{site.baseurl}}/img/csa.png">
-        <span class="name">Cameron Aavik (<a href="https://uqcs.slack.com/messages/@csa/" target="_blank">@csa</a>)</span><br>
+        <img class="profile-img" src="{{site.baseurl}}/img/mitch.jpg">
+        <span class="name">Mitch McDermott (<a href="https://uqcs.slack.com/messages/@mitch/" target="_blank">@mitch</a>)</span><br>
         <span class="role">General Committee</span>
     </div>
     <div class="profile col s12 m6 l3">
-        <img class="profile-img" src="{{site.baseurl}}/img/gricey.jpg">
-        <span class="name">Mitchell Grice (<a href="https://uqcs.slack.com/messages/@gricey/" target="_blank">@gricey</a>)</span><br>
+        <img class="profile-img" src="{{site.baseurl}}/img/neil.jpg">
+        <span class="name">Neil Ashford (<a href="https://uqcs.slack.com/messages/@artemis/" target="_blank">@artemis</a>)</span><br>
         <span class="role">General Committee</span>
     </div>
     <div class="profile col s12 m6 l3">
-        <img class="profile-img" src="{{site.baseurl}}/img/mcoot.jpg">
-        <span class="name">Joseph Spearritt (<a href="https://uqcs.slack.com/messages/@mqt/" target="_blank">@mqt</a>)</span><br>
+        <img class="profile-img" src="{{site.baseurl}}/img/harry.jpg">
+        <span class="name">Harry Guthrie (<a href="https://uqcs.slack.com/messages/@guthers/" target="_blank">@guthers</a>)</span><br>
         <span class="role">General Committee</span>
     </div>
 </div>

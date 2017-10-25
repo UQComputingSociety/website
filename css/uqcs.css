@@ -161,3 +161,11 @@ body {
 .date-col p {
     margin: 0;
 }
+
+.read-more {
+    text-align: right;
+    margin-right: 35px
+}
+.post-content p {
+    margin-bottom: 0;
+}

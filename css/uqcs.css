@@ -138,5 +138,26 @@ body {
 }
 
 .post-meta {
-    font-weight: bold
+    font-weight: bold;
+    text-align: right;
+    width: 100%;
+}
+
+.post-header-row {
+    display: flex;
+    align-items: flex-end;
+    margin: 20px 0 10px 0;
+}
+
+.post-header-row h4 {
+    margin: 0;
+}
+
+.date-col {
+    display: flex;
+    align-self: flex-end;
+}
+
+.date-col p {
+    margin: 0;
 }

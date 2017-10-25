@@ -19,12 +19,22 @@ layout: index
 
 {% for post in paginator.posts %}
 <div class="post">
-  <h4>
-    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-  </h4>
-  <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div>
-    <div class="post-content">{{ post.excerpt }}
-    <div class="read-more">    
+  <div class="row post-header-row">
+    <div class="col s8 m10 l10 post-header-col">
+      <h4>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h4>
+    </div>
+    <div class="col s4 m2 l2 date-col">
+      <p class="post-meta post-date">{{ post.date | date: "%b %-d, %Y" }}</p>
+    </div>
+  </div>
+  {% if post.banner_image %}
+  <img src="{{ post.banner_image }}">
+  {% endif %}
+  <div class="post-content">
+  {{ post.excerpt }}
+  <div class="read-more">
 {% if post.content contains "<!--more-->" %}
       <a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
     {% endif %}

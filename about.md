@@ -48,7 +48,7 @@ We develop, hack and ultimately have fun.
         <span class="name">Neil Ashford (<a href="https://uqcs.slack.com/messages/@artemis/" target="_blank">@artemis</a>)</span><br>
         <span class="role">General Committee</span>
     </div>
-    <div class="profile col s12 m6 l3">
+    <div class="profile col s12 m12 l3">
         <img class="profile-img" src="{{site.baseurl}}/img/harry.jpg">
         <span class="name">Harry Guthrie (<a href="https://uqcs.slack.com/messages/@guthers/" target="_blank">@guthers</a>)</span><br>
         <span class="role">General Committee</span>

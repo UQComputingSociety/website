@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Python Library Lightning Talks
+banner_image: /uploads/2017/python-talks-header.png
 ---
 
 Our first set of lightning talks for the year went incredibly well. We saw plenty of new faces and even had a few people sign up on the day. You can find video and slides from the event after the break.

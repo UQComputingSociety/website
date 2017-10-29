@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Shirt Preorders + Market Day
+banner_image: /uploads/2017/mockup-shirt-white.png
 ---
 
 Happy 2017 UQCS! Semester 1 is about to start, so we hope you've had a relaxing holiday.

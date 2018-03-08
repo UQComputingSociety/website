@@ -33,7 +33,7 @@ body {
 
     color: white;
     background-color: black;
-    background-image: url('/img/background_grey.png');
+    background-image: url('/img/cover/coverphoto_grey.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -89,7 +89,7 @@ body {
 
 .navbar-fixed
 {
-    margin-bottom: 64px; /* Default height of Materialize Navbar */
+    margin-bottom: 56px; /* Default height of Materialize Navbar */
 }
 
 .sponsor-img
@@ -114,7 +114,7 @@ body {
 
 .page-footer {
     background-color: black;
-    background-image: url('/img/background_grey.png');
+    background-image: url('/img/cover/coverphoto_grey.png');
     background-repeat: no-repeat;
     background-size: cover;
 }

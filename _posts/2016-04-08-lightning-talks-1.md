@@ -19,7 +19,7 @@ First up was Elliot Smith a UQ alumni (2012) and founder and CEO of HSK Instrume
 
 Our second talk featured another UQ alumni, Dave Finster, currently the CTO of Docketbook which is a platform to replace the dated use of “dockets” in the construction industry. Dave’s talk focused on Docker - a platform on which developers can build and run their software with all dependencies and requirements bundled. Dave mentioned the differences and advantages of using virtualization and containers (Docker), with the low overhead of the latter being a big advantage. For upcoming developers, containers and images are an easier solution for maintaining efficiency during both development and production statements.
 
-<strong>Slides: </strong> <a href="{{ site.baseurl }}/uploads/Docker_Short.pdf">Dave's Slides</a>
+<strong>Slides: </strong> <a href="{{ site.baseurl }}/uploads/2016/Docker_Short.pdf">Dave's Slides</a>
 <br><br>
 
 

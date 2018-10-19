@@ -18,39 +18,49 @@ We develop, hack and ultimately have fun.
 ## The Committee
 
 <div class="row">
-    <div class="profile col s12 m6 l4">
-        <img class="profile-img" src="{{site.baseurl}}/img/exec/president.jpg">
-        <span class="name">Cameron Aavik (<a href="https://uqcs.slack.com/messages/@csa/" target="_blank">@csa</a>)</span><br>
+    <div class="profile col s8 offset-s2 m6 l4">
+        <img class="profile-img" src="{{site.baseurl}}/img/exec/president.png">
+        <span class="name">Nicholas Lambourne (<a href="https://uqcs.slack.com/messages/@ndl/" target="_blank">@ndl</a>)</span><br>
         <span class="role">President</span>
     </div>
-    <div class="profile col s12 m6 l4">
+    <div class="profile col s8 offset-s2 m6 l4">
         <img class="profile-img" src="{{site.baseurl}}/img/exec/secretary.jpg">
-        <span class="name">Max Bo (<a href="https://uqcs.slack.com/messages/@mb/" target="_blank">@mb</a>)</span><br>
+        <span class="name">Jack Caperon (<a href="https://uqcs.slack.com/messages/@jam/" target="_blank">@jam</a>)</span><br>
         <span class="role">Secretary</span>
     </div>
-    <div class="profile col s12 m6 l4">
-        <img class="profile-img" src="{{site.baseurl}}/img/exec/treasurer.jpg">
-        <span class="name">Rob Kopel (<a href="https://uqcs.slack.com/messages/@rob/" target="_blank">@rob</a>)</span><br>
+    <div class="profile col s8 offset-s2 m6 l4">
+        <img class="profile-img" src="{{site.baseurl}}/img/exec/treasurer.png">
+        <span class="name">Bradley Stone (<a href="https://uqcs.slack.com/messages/@Σ/" target="_blank">@Σ</a>)</span><br>
         <span class="role">Treasurer</span>
     </div>
-    <div class="profile col s12 m6 l3">
-        <img class="profile-img" src="{{site.baseurl}}/img/exec/trm.jpg">
-        <span class="name">Tom Manderson (<a href="https://uqcs.slack.com/messages/@trm/" target="_blank">@trm</a>)</span><br>
+    <div class="profile col s8 offset-s2 m6 l4">
+        <img class="profile-img" src="{{site.baseurl}}/img/exec/mgtlake.png">
+        <span class="name">Matthew Lake (<a href="https://uqcs.slack.com/messages/@mgtlake/" target="_blank">@mgtlake</a>)</span><br>
         <span class="role">General Committee</span>
     </div>
-    <div class="profile col s12 m6 l3">
-        <img class="profile-img" src="{{site.baseurl}}/img/exec/mitch.jpg">
-        <span class="name">Mitch McDermott (<a href="https://uqcs.slack.com/messages/@mitch/" target="_blank">@mitch</a>)</span><br>
+    <div class="profile col s8 offset-s2 m6 l4">
+        <img class="profile-img" src="{{site.baseurl}}/img/exec/que.png">
+        <span class="name">Ella de Lore (<a href="https://uqcs.slack.com/messages/@Ella/" target="_blank">@Ella</a>)</span><br>
         <span class="role">General Committee</span>
     </div>
-    <div class="profile col s12 m6 l3">
-        <img class="profile-img" src="{{site.baseurl}}/img/exec/neil.jpg">
-        <span class="name">Neil Ashford (<a href="https://uqcs.slack.com/messages/@artemis/" target="_blank">@artemis</a>)</span><br>
+    <div class="profile col s8 offset-s2 m6 l4">
+        <img class="profile-img" src="{{site.baseurl}}/img/exec/ryan.jpg">
+        <span class="name">Ryan Kurz (<a href="https://uqcs.slack.com/messages/@lighthou/" target="_blank">@lighthou</a>)</span><br>
         <span class="role">General Committee</span>
     </div>
-    <div class="profile col s12 m12 l3">
-        <img class="profile-img" src="{{site.baseurl}}/img/exec/harry.jpg">
-        <span class="name">Harry Guthrie (<a href="https://uqcs.slack.com/messages/@guthers/" target="_blank">@guthers</a>)</span><br>
+    <div class="profile col s8 offset-s2 m6 l4">
+        <img class="profile-img" src="{{site.baseurl}}/img/exec/ishraque.jpg">
+        <span class="name">Ishraque Zahin (<a href="https://uqcs.slack.com/messages/@Ishraque/" target="_blank">@Ishraque</a>)</span><br>
+        <span class="role">General Committee</span>
+    </div>
+    <div class="profile col s8 offset-s2 m6 l4">
+        <img class="profile-img" src="{{site.baseurl}}/img/exec/jsutton.jpg">
+        <span class="name">Joshua Sutton (<a href="https://uqcs.slack.com/messages/@jsutton/" target="_blank">@jsutton</a>)</span><br>
+        <span class="role">General Committee</span>
+    </div>
+    <div class="profile col s8 offset-s2 m6 offset-m3 l4">
+        <img class="profile-img" src="{{site.baseurl}}/img/exec/rm.jpg">
+        <span class="name">Raghav Mishra (<a href="https://uqcs.slack.com/messages/@rm/" target="_blank">@rm</a>)</span><br>
         <span class="role">General Committee</span>
     </div>
 </div>

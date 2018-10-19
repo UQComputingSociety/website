@@ -19,17 +19,23 @@ We develop, hack and ultimately have fun.
 
 <div class="row">
     <div class="profile col s8 offset-s2 m6 l4">
-        <img class="profile-img" src="{{site.baseurl}}/img/exec/president.png">
+        <a href="https://github.com/nicklambourne" target="_blank">
+           <img class="profile-img" src="{{site.baseurl}}/img/exec/president.png">
+        </a>
         <span class="name">Nicholas Lambourne (<a href="https://uqcs.slack.com/messages/@ndl/" target="_blank">@ndl</a>)</span><br>
         <span class="role">President</span>
     </div>
     <div class="profile col s8 offset-s2 m6 l4">
-        <img class="profile-img" src="{{site.baseurl}}/img/exec/secretary.jpg">
+        <a href="https://github.com/jdcaperon" target="_blank">
+          <img class="profile-img" src="{{site.baseurl}}/img/exec/secretary.jpg">
+        </a>
         <span class="name">Jack Caperon (<a href="https://uqcs.slack.com/messages/@jam/" target="_blank">@jam</a>)</span><br>
         <span class="role">Secretary</span>
     </div>
-    <div class="profile col s8 offset-s2 m6 l4">
+    <div class="profile col s8 offset-s2 m6 l4" target="_blank">
+        <a href="https://github.com/bradleysigma">
         <img class="profile-img" src="{{site.baseurl}}/img/exec/treasurer.png">
+        </a>
         <span class="name">Bradley Stone (<a href="https://uqcs.slack.com/messages/@Σ/" target="_blank">@Σ</a>)</span><br>
         <span class="role">Treasurer</span>
     </div>
@@ -44,7 +50,9 @@ We develop, hack and ultimately have fun.
         <span class="role">General Committee</span>
     </div>
     <div class="profile col s8 offset-s2 m6 l4">
-        <img class="profile-img" src="{{site.baseurl}}/img/exec/ryan.jpg">
+        <a href="https://github.com/lighthou" target="_blank">
+          <img class="profile-img" src="{{site.baseurl}}/img/exec/ryan.jpg">
+        </a>
         <span class="name">Ryan Kurz (<a href="https://uqcs.slack.com/messages/@lighthou/" target="_blank">@lighthou</a>)</span><br>
         <span class="role">General Committee</span>
     </div>
@@ -54,12 +62,16 @@ We develop, hack and ultimately have fun.
         <span class="role">General Committee</span>
     </div>
     <div class="profile col s8 offset-s2 m6 l4">
-        <img class="profile-img" src="{{site.baseurl}}/img/exec/jsutton.jpg">
+        <a href="https://www.linkedin.com/in/joshua-sutton-753b10143/">
+          <img class="profile-img" src="{{site.baseurl}}/img/exec/jsutton.jpg">
+        </a>
         <span class="name">Joshua Sutton (<a href="https://uqcs.slack.com/messages/@jsutton/" target="_blank">@jsutton</a>)</span><br>
         <span class="role">General Committee</span>
     </div>
     <div class="profile col s8 offset-s2 m6 offset-m3 l4">
-        <img class="profile-img" src="{{site.baseurl}}/img/exec/rm.jpg">
+        <a href="https://github.com/LaVieEstDure" target="_blank">
+          <img class="profile-img" src="{{site.baseurl}}/img/exec/rm.jpg">
+        </a>
         <span class="name">Raghav Mishra (<a href="https://uqcs.slack.com/messages/@rm/" target="_blank">@rm</a>)</span><br>
         <span class="role">General Committee</span>
     </div>

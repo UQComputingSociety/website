@@ -18,13 +18,11 @@ body {
     flex: 1 0 auto;
 }
 
-.pagination
-{
+.pagination {
     text-align: center;
 }
 
-.banner
-{
+.banner {
     font-weight: 500;
 
     padding: 5%;
@@ -38,28 +36,23 @@ body {
     background-size: cover;
 }
 
-.logo
-{
+.logo {
     max-height: 40px;
 }
 
-.dropdown-content
-{
+.dropdown-content {
     margin-top: 64px !important;
 }
 
-.profile
-{
+.profile {
     text-align: center;
 }
 
-.profile .name
-{
+.profile .name {
     font-weight: 800;
 }
 
-.profile-img
-{
+.profile-img {
     display: block;
 
     height: 150px;
@@ -70,45 +63,34 @@ body {
 }
 
 /*This is hackish and someone else should fix it*/
-.brand-logo
-{
+.brand-logo {
     padding-top: 9px !important;
 }
 
-
 /*List Items for Markdown*/
-.main ul
-{
+.main ul {
     margin-left: 20px;
 }
 
-.main li
-{
+.main li {
     list-style: initial;
 }
 
-.navbar-fixed
-{
-    margin-bottom: 56px; /* Default height of Materialize Navbar */
-}
-
-.sponsor-img
-{
+.sponsor-img {
     width: 100%;
 }
 
-.dropdown-content a
-{
+.dropdown-content a {
     color: #3498db !important;
 }
 
-.details-box{
+.details-box {
     border: 1px solid #3D403C;
     background-color: #E1E1E1;
     padding: 15px;
 }
 
-.post img{
+.post img {
     width: 100%;
 }
 
@@ -133,39 +115,6 @@ body {
 
 @media only screen and (min-width: 993px) {
     .show-on-large-and-up {
-      display: block !important;
+        display: block !important;
     }
-}
-
-.post-meta {
-    font-weight: bold;
-    text-align: right;
-    width: 100%;
-}
-
-.post-header-row {
-    display: flex;
-    align-items: flex-end;
-    margin: 20px 0 10px 0;
-}
-
-.post-header-row h4 {
-    margin: 0;
-}
-
-.date-col {
-    display: flex;
-    align-self: flex-end;
-}
-
-.date-col p {
-    margin: 0;
-}
-
-.read-more {
-    text-align: right;
-    margin-right: 35px
-}
-.post-content p {
-    margin-bottom: 0;
 }

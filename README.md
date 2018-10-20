@@ -16,7 +16,7 @@ Email us at contact@uqcs.org.au for help, or ask in Slack.
 ### Building locally
 The site is made in Jekyll, to build it:
 
-- Install [Ruby](https://www.ruby-lang.org/en/) >= 2.3.3
+- Install [Ruby](https://www.ruby-lang.org/en/) = 2.3.7 (you may want to use [rbenv](https://github.com/rbenv/rbenv))
 - Install the bundler package manager using gem `gem install bundler`
 - Navigate into the website repository and install the requirements using bundler `bundle install`
     - `bundle install` not working? Try `bundle update` first, this should fix most Gem installation issues (just make sure that you don't add the modified Gemfile.lock in your pull request)

@@ -2,9 +2,16 @@
 layout: page
 ---
 # About
-The UQ Computing Society provides a fun, social and challenging environment for students interested in coding and technology.
+The UQ Computing Society provides a fun, social and challenging environment for students interested in coding and technology. Here's what some of our long-time members have to say:
 
-> UQCS is life-changing for anyone even remotely technologically minded. The sense of community, the topical events and the wealth of knowledge are all incredible, not to mention the mountains of pizza. Trust me, it'll be the best value you've ever gotten out of $5. - Nick Lambourne
+> I love UQCS because it is a place to embrace your nerdy side. No matter what type of nerdiness, chances are someone else will embrace it with you. There are always opportunities to learn more and grow with likeminded people. 
+
+\- <span class="name">Harry Guthrie (<a href="https://uqcs.slack.com/messages/@guthers/" target="_blank">@guthers</a>)</span>
+
+
+> UQCS has had a massively positive impact on my life, and I'm so glad that I joined
+
+\- <span class="name">Tom Manderson (<a href="https://uqcs.slack.com/messages/@trm/" target="_blank">@trm</a>)</span>
 
 
 ## What do we do?

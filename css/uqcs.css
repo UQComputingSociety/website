@@ -101,6 +101,10 @@ body {
     background-size: cover;
 }
 
+.navbar-fixed {
+    margin-bottom: 56px; /* Default height of Materialize Navbar */
+}
+
 @media only screen and (min-width: 1200px) {
     .show-on-extra-large {
         display: block !important;

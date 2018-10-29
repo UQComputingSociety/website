@@ -15,7 +15,7 @@ markdown: kramdown
 paginate: 5
 paginate_path: "/page:num/"
 
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-paginate
 exclude: [vendor]

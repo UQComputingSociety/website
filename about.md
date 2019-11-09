@@ -41,18 +41,22 @@ We develop, hack and ultimately have fun.
     </div>
     <div class="profile col s8 offset-s2 m6 l4" target="_blank">
         <a href="https://github.com/bradleysigma">
-        <img class="profile-img" src="{{site.baseurl}}/img/exec/treasurer.png">
+          <img class="profile-img" src="{{site.baseurl}}/img/exec/treasurer.png">
         </a>
         <span class="name">Bradley Stone (<a href="https://uqcs.slack.com/messages/@Σ/" target="_blank">@Σ</a>)</span><br>
         <span class="role">Treasurer</span>
     </div>
     <div class="profile col s8 offset-s2 m6 l4">
-        <img class="profile-img" src="{{site.baseurl}}/img/exec/sanni.jpg">
+        <a href="https://github.com/sannibunny">
+          <img class="profile-img" src="{{site.baseurl}}/img/exec/sanni.jpg">
+        </a>
         <span class="name">Sanni Bosamia (<a href="https://uqcs.slack.com/messages/@sanni/" target="_blank">@sanni</a>)</span><br>
         <span class="role">General Committee</span>
     </div>
     <div class="profile col s8 offset-s2 m6 l4">
-        <img class="profile-img" src="{{site.baseurl}}/img/exec/jack.jpg">
+        <a href="https://github.com/jdcaperon">    
+          <img class="profile-img" src="{{site.baseurl}}/img/exec/jack.jpg">
+        </a>
         <span class="name">Jack Caperon (<a href="https://uqcs.slack.com/messages/@jam/" target="_blank">@jam</a>)</span><br>
         <span class="role">General Committee</span>
     </div>
@@ -65,7 +69,7 @@ We develop, hack and ultimately have fun.
     </div>
     <div class="profile col s8 offset-s2 m6 l4">
         <a href="https://github.com/Moss1410" target="_blank">    
-            <img class="profile-img" src="{{site.baseurl}}/img/exec/liv.png">
+          <img class="profile-img" src="{{site.baseurl}}/img/exec/liv.png">
         </a>
         <span class="name">Olivia Mackenzie-Ross (<a href="https://uqcs.slack.com/messages/@Liv/" target="_blank">@Liv</a>)</span><br>
         <span class="role">General Committee</span>

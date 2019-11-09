@@ -88,7 +88,7 @@ We develop, hack and ultimately have fun.
         <span class="name">James Copperthwaite (<a href="https://uqcs.slack.com/messages/@jcopprthwaite/" target="_blank">@jcopprthwaite</a>)</span><br>
         <span class="role">General Committee</span>
     </div>
-    <div class="profile col s8 offset-s2 m6 l4">
+    <div class="profile col s8 offset-s2 m6 l4 offset-l2">
         <a href="https://github.com/KentonLam/">
           <img class="profile-img" src="{{site.baseurl}}/img/exec/kenton.png">
         </a>

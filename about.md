@@ -13,6 +13,8 @@ The UQ Computing Society provides a fun, social and inclusive environment for st
 
 \- <span class="name">Tom Manderson (<a href="https://uqcs.slack.com/messages/@trm/" target="_blank">@trm</a>)</span>
 
+University of Queensland 2019 Faculty Club of the Year.
+
 
 ## What do we do?
 We develop, hack and ultimately have fun.

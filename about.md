@@ -2,7 +2,7 @@
 layout: page
 ---
 # About
-The UQ Computing Society provides a fun, social and inclusive environment for students interested in coding and technology. Here's what some of our long-time members have to say:
+The UQ Computing Society provides a fun, social and inclusive environment for those interested in coding and technology. Here's what some of our long-time members have to say:
 
 > I love UQCS because it is a place to embrace your nerdy side. No matter what type of nerdiness, chances are someone else will embrace it with you. There are always opportunities to learn more and grow with likeminded people. 
 

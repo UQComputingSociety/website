@@ -1,0 +1,22 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
+<meta name="author" content="{{ with .Site.Params.name }}{{ . }}{{ end }}">
+
+<title>{{ .Site.Title }}</title>
+
+{{ "<!-- Compiled and minified CSS -->" | safeHTML }}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+{{ "<!-- Compiled and minified JavaScript -->" | safeHTML }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+{{ "<!-- Custom CSS -->" | safeHTML }}
+{{ range .Site.Params.custom_css }}
+<link rel="stylesheet" href="{{ . | absURL }}">
+{{ end }}
+{{ "<!-- Custom Fonts -->" | safeHTML }}
+{{ range .Site.Params.custom_fonts }}
+<link rel="stylesheet" type="text/css" href="{{ . | absURL }}">
+{{ end }}
+{{ "<!-- Custom ICO -->" | safeHTML }}
+<link rel="shortcut icon" type="image/x-icon" href="{{ .Site.Params.custom_ico }}">

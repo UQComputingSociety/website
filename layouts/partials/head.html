@@ -10,6 +10,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 {{ "<!-- Compiled and minified JavaScript -->" | safeHTML }}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+{{ "<!-- Font Awesome Kit -->" | safeHTML }}
+<script src="https://kit.fontawesome.com/87970057fb.js" crossorigin="anonymous"></script>
 {{ "<!-- Custom CSS -->" | safeHTML }}
 {{ range .Site.Params.custom_css }}
 <link rel="stylesheet" href="{{ . | absURL }}">

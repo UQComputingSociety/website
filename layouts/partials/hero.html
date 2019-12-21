@@ -1,0 +1,28 @@
+{{ "<!-- Homepage Hero -->" | safeHTML }}
+
+<section class="hero is-dark">
+
+    <!-- Hero head: will stick at the top -->
+    <div class="hero-head">
+        {{ partial "nav.html" . }}
+    </div>
+
+    <!-- Hero content: will be in the middle -->
+    <div class="hero-body">
+        <div class="container has-text-centered ">
+            <img src="/img/logo/logo.svg" height="256" width="256"/>
+            <h1 class="title">
+                UQ Computing Society
+            </h1>
+        </div>
+    </div>
+
+    <!-- Hero footer: will stick at the bottom -->
+    <div class="hero-foot">
+        <div class="buttons is-centered">
+            <button class="button is-primary">
+                Join The Chat!
+            </button>
+        </div>
+    </div>
+</section>

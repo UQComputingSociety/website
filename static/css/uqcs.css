@@ -1,1 +1,5 @@
 /*UQCS Website Style Sheet*/
+
+.hero {
+    background-image: url(../img/hero-background.png);
+}

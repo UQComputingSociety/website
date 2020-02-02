@@ -1,6 +1,4 @@
 {{ "<!-- Header -->" | safeHTML }}
-<header>
-    <div>
-        <span>{{ with .Site.Params.name }}{{ . }}{{ end }}</span>
-    </div>
+<header class="hero is-dark uqcs-background">
+    {{ partial "nav" . }}
 </header>

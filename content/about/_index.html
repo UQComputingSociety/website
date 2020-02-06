@@ -4,7 +4,91 @@ date: 2020-02-02T14:52:01+11:00
 draft: true
 ---
 
-<hr>
-this is the about content page.
-<hr>
+{{< blocks/hero >}}
+<div class="container has-text-centered ">
+    <img src="/img/logo/logo-long.svg" width="50%" />
+</div>
+<section class="section has-text-centered is-size-5">
+    <div class="columns">
+        <div class="column is-one-quarter"></div>
+        <div class="column">
+            <div class="is-size-1 has-text-weight-bold">
+                43
+            </div>
+            Events
+        </div>
+        <div class="column">
+            <div class="is-size-1 has-text-weight-bold">
+                500+
+            </div>
+            Members
+        </div>
+        <div class="column">
+            <div class="is-size-1 has-text-weight-bold">
+                1331
+            </div>
+            Pizzas
+        </div>
+        <div class="column is-one-quarter"></div>
+    </div>
+</section>
+{{< /blocks/hero >}}
 
+<section class="section">
+    <div class="columns">
+        <div class="column is-5 is-offset-2">
+            <h1 class="title">What is UQCS?</h1>
+            <p class="is-size-5">
+                UQCS encompasses a broad range of interests, from digital design to software engineering. We are an
+                inclusive club focused on development of the next generation of innovators through twice-weekly events
+                spanning educational, social, and industry emphases. Our membership includes undergraduate and
+                postgraduate
+                students, as well as recent graduates and alumni.
+            </p>
+        </div>
+        <div class="column is-5">
+            {{< figure src="/img/media/hired_in_tech.jpg" >}}
+        </div>
+    </div>
+</section>
+<section class="section">
+    <div class="columns">
+        <div class="column is-offset-2">
+            <h1 class="title">The Executive</h1>
+        </div>
+    </div>
+    <div class="columns">
+        <div class="column is-2 is-offset-2 is-large">
+            {{< committee-photo 
+                src="/img/media/exec/kumar-ish.jpg" 
+                title="Madhav Kumar (@kumar-ish)" 
+                caption="President"
+                image-class="committee-headshot"
+                link="https://www.linkedin.com/in/kumar-ish/"
+                class="committee-element"
+            >}}
+        </div>
+        <div class="column is-1"></div>
+        <div class="column is-2">
+            {{< committee-photo 
+                src="/img/media/exec/matthew.jpg" 
+                title="Matthew Low (@mcl)" 
+                caption="Secretary"
+                image-class="committee-headshot"
+                link="/"
+                class="committee-element"
+            >}}
+        </div>
+        <div class="column is-1"></div>
+        <div class="column is-2">
+            {{< committee-photo 
+                src="/img/media/exec/bradley.png" 
+                title="Bradley Stone" 
+                caption="Treasurer"
+                image-class="committee-headshot"
+                link="/"
+                class="committee-element"
+            >}}
+        </div>
+    </div>
+</section>

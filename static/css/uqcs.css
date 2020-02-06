@@ -12,3 +12,12 @@
     display: flex;
     align-items: center;
 }
+
+.name-banner {
+    align-items: center;
+    font-weight: bold;
+}
+
+.committee-headshot {
+    border-radius: 50%;
+}

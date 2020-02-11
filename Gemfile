@@ -1,7 +1,0 @@
-source "https://rubygems.org"
-ruby '2.3.7'
-gem 'jekyll'
-gem 'therubyracer'
-gem 'foundation'
-gem 'jekyll-sitemap'
-gem 'jekyll-paginate'

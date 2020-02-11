@@ -3,7 +3,15 @@
 
 The website of The University of Queensland Computing Society.
 
-This site is made in Jekyll which is compiled to static files on Jenkins (see the build status icon) and then hosted on the UQ Cloud.
+This site is built on a verison of the [jamstack](https://jamstack.org/) using:
+
+* Hugo Templating
+* Bulma CSS Framework
+* Font Awesome Icons
+* Custom CSS and JS
+
+Which is compiled to static files using Github Actions and then hosted Github Pages.
+
 
 ## Contributing
 The UQCS site is a place to show off both the club itself, and the work its members. You can contribute ideas, bugs or suggestions by clicking the Issues tab above and creating a new issue.
@@ -11,52 +19,26 @@ The UQCS site is a place to show off both the club itself, and the work its memb
 You can contribute code by forking the repository, making your changes and creating a pull request. It's encouraged to create an issue for the changes you plan on making in your pull request and you should mention the IDs of any issues you work on in your pull request description.
 
 Want help with creating a pull request? No problem!
-Email us at contact@uqcs.org.au for help, or ask in Slack.
+Email us at contact@uqcs.org.au for help, or ask in [Slack](https://slack.uqcs.org.au/).
 
-### Building locally
-The site is made in Jekyll, to build it:
 
-- Install [Ruby](https://www.ruby-lang.org/en/) = 2.3.7 (you may want to use [rbenv](https://github.com/rbenv/rbenv))
-- Install the bundler package manager using gem `gem install bundler`
-- Navigate into the website repository and install the requirements using bundler `bundle install`
-    - `bundle install` not working? Try `bundle update` first, this should fix most Gem installation issues (just make sure that you don't add the modified Gemfile.lock in your pull request)
-- You can run the site locally while you develop using `jekyll serve`
+### Getting Setup
 
-The final website is built by our Jenkins server using `jekyll build`
+1. [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+2. [Install Hugo](https://gohugo.io/getting-started/installing/)
+3. Open your preferred terminal.
+4. Run `git clone https://github.com/UQComputingSociety/website.git`
+5. Run `cd website`
+6. Run `hugo server -D`
+7. Open your preferred browser.
+8. Navigate to http://localhost:1313/
+
 
 ### Showcasing your project
 
-Would you like to showcase your project? If so please produce a high
-quality image of size 1000x750px and add it to `img/showcase/`.
+Coming Soon TM
 
-Once you've produced the image add the below snippet to 
-`_includes/showcase_content.html` replacing [IMG_NAME], [Project Title], 
-[URL], and [Description] with your own information.
 
-```
-<div class="col s12 m6 l4">
-  <div class="card small">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="img/showcase/[IMG_NAME]">
-    </div>
-    <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">
-          [Project Title]
-          <i class="material-icons right">more_vert</i></span>
-      <p><a href="#">[URL]</a></p>
-    </div>
-    <div class="card-reveal">
-    <span class="card-title grey-text text-darken-4">
-        [Project Title]
-        <i class="material-icons right">close</i>
-    </span>
-      <p>
-        [Description]
-      </p>
-    </div>
-  </div>
-</div>
-```
+## Licensing
 
-## Copyright
-Copyright (c) 2017 UQ Computing Society
+This project is licensed under the Apache License 2.0.

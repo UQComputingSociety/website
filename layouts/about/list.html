@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    <head>
+        {{ partial "head" . }}
+    </head>
+    <body class="is-dark">
+        {{ .Content }}
+        {{ partial "footer" . }}
+    </body>
+</html>

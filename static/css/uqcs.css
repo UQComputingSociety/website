@@ -1,0 +1,23 @@
+/*UQCS Website Style Sheet*/
+
+.uqcs-background {
+    background-image: url(../img/hero-background.png);
+}
+
+.sponsor-img {
+    width: 90%;
+}
+
+.sponsor-container {
+    display: flex;
+    align-items: center;
+}
+
+.name-banner {
+    align-items: center;
+    font-weight: bold;
+}
+
+.committee-headshot {
+    border-radius: 50%;
+}

@@ -16,7 +16,7 @@ Please note we have a code of conduct, please follow it in all your interactions
 3. Checkout the branch and work on your issue.
 4. When you are finished on your feature/issue, push it to the remote repository and [create your pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 5. [Request a review](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/requesting-a-pull-request-review) from one of the reviewers listed in the reviewers section of this document.
-6. When your pull request is reviewed and approved. Merge that sucker and close your issue. :tada:
+6. When your pull request is reviewed and approved, click `Squash and Merge`, clear the commits from below the merge title, then confirm.
 
 ## Reviewers
 

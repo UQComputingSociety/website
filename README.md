@@ -18,6 +18,8 @@ The UQCS site is a place to show off both the club itself, and the work its memb
 
 You can contribute code by forking the repository, making your changes and creating a pull request. It's encouraged to create an issue for the changes you plan on making in your pull request and you should mention the IDs of any issues you work on in your pull request description.
 
+For more information checkout the [CONTRIBUTING.md](CONTRIBUTING.md)
+
 Want help with creating a pull request? No problem!
 Email us at contact@uqcs.org.au for help, or ask in [Slack](https://slack.uqcs.org.au/).
 

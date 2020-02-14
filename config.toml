@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://www.uqcs.org.au/"
+baseurl = "http://uqcomputingsociety.github.io/"
 languageCode = "en-us"
 title = "UQCS"
 

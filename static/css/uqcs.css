@@ -1,7 +1,7 @@
 /*UQCS Website Style Sheet*/
 
 .uqcs-background {
-    background-image: url(../img/hero-background.png);
+    background-image: url(..{{ .Site.BaseURL }}/img/hero-background.png);
 }
 
 .sponsor-img {

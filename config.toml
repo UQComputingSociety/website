@@ -18,5 +18,5 @@ title = "UQCS"
     # Custom assets e.g. "/css/style.css"
 	custom_css = ["/css/uqcs.css", "/css/colors.css"]
 	custom_js  = []
-    custom_ico = "/img/favicon/favicon.ico"
+    custom_ico = "{{ .Site.BaseURL }}/img/favicon/favicon.ico"
     custom_fonts = []

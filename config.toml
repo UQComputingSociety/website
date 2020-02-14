@@ -16,7 +16,8 @@ title = "UQCS"
     description = "The UQ Computing Society provides a fun, social and inclusive environment for those interested in coding and technology."
 
     # Custom assets e.g. "/css/style.css"
-	custom_css = ["/css/uqcs.css", "/css/colors.css"]
+    #TODO when we move to a root domanin these need to be updated to not include /website
+	custom_css = ["/website/css/uqcs.css", "/website/css/colors.css"]
 	custom_js  = []
-    custom_ico = "{{ .Site.BaseURL }}/img/favicon/favicon.ico"
+    custom_ico = "/website/img/favicon/favicon.ico"
     custom_fonts = []

@@ -12,11 +12,11 @@
 <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 {{ "<!-- Custom CSS -->" | safeHTML }}
 {{ range .Site.Params.custom_css }}
-<link rel="stylesheet" href="{{ . | absURL }}">
+<link rel="stylesheet" type="text/css" href="{{ . | absURL }}">
 {{ end }}
 {{ "<!-- Custom Fonts -->" | safeHTML }}
 {{ range .Site.Params.custom_fonts }}
-<link rel="stylesheet" type="text/css" href="{{ . | absURL }}">
+<link rel="stylesheet" href="{{ . | absURL }}">
 {{ end }}
 {{ "<!-- Custom ICO -->" | safeHTML }}
 <link rel="shortcut icon" type="image/x-icon" href="{{ .Site.Params.custom_ico }}">

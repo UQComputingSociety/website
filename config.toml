@@ -18,6 +18,6 @@ title = "UQCS"
     # Custom assets e.g. "/css/style.css"
     #TODO when we move to a root domanin these need to be updated to not include /website
 	custom_css = ["/website/css/uqcs.css", "/website/css/colors.css"]
-	custom_js  = []
+	custom_js  = ["/website/js/navigation.js"]
     custom_ico = "/website/img/favicon/favicon.ico"
     custom_fonts = []

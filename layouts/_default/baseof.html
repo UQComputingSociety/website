@@ -9,5 +9,11 @@
         {{ block "main" . }}{{ end }}
         
         {{ partial "footer" . }}
+
+        {{ "<!-- Custom JavaScript -->" | safeHTML }}
+        {{ range .Site.Params.custom_js }}
+        <script src="{{ . | absURL }}"></script>
+        {{ end }}
+
     </body>
 </html>

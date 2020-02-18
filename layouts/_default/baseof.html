@@ -3,10 +3,12 @@
     <head>
         {{ partial "head" . }}
     </head>
-    <body class="is-dark">
+    <body class="is-dark" style="display: flex; min-height: 100vh; flex-direction: column;">
         {{ partial "header" . }}
 
-        {{ block "main" . }}{{ end }}
+        <div style="flex: 1">
+            {{ block "main" . }}{{ end }}
+        </div>
         
         {{ partial "footer" . }}
 

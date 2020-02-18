@@ -21,3 +21,27 @@
 .committee-headshot {
     border-radius: 50%;
 }
+
+.join-button {
+    background-color: var(--uqcs-light-blue);
+    border-color: transparent;
+    color: white;
+}
+
+.join-button:hover {
+    background-color: var(--uqcs-light-blue-darker);
+    border-color: transparent;
+    color: white;
+}
+
+.join-button:active, .join-button:focus {
+    color: white;
+}
+
+#share-buttons .button {
+    background-color: transparent;
+}
+
+#share-buttons .button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}

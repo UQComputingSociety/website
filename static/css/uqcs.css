@@ -20,6 +20,7 @@
 
 .committee-headshot {
     border-radius: 50%;
+    border: 2px solid #444;
     width: 100%;
 }
 
@@ -27,7 +28,7 @@
     min-width: 10rem;
     max-width: 10rem;
 
-    margin: 25px 50px;
+    margin: 25px 25px;
 }
 
 .join-button {

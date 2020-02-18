@@ -1,21 +1,21 @@
 {{ "<!-- Navbar End -->" | safeHTML }}
 
-<a class="navbar-item" href="/about">
+<a class="navbar-item" href="{{ .Site.BaseURL }}/about">
     About
 </a>
-<a class="navbar-item" href="/showcase">
+<a class="navbar-item" href="{{ .Site.BaseURL }}/showcase">
     Showcase
 </a>
-<a class="navbar-item" href="/events">
+<a class="navbar-item" href="{{ .Site.BaseURL }}/events">
     Events
 </a>
-<a class="navbar-item" href="/contact">
+<a class="navbar-item" href="{{ .Site.BaseURL }}/contact">
     Contact
 </a>
 
 <div class="navbar-item">
     <div class="buttons">
-        <a class="button is-primary">
+        <a class="button is-primary" href="https://join.uqcs.org.au/">
             <strong>Join!</strong>
         </a>
     </div>

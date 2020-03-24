@@ -3,14 +3,49 @@ title: "Events"
 date: 2020-02-03T22:26:16+11:00
 draft: false
 ---
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/core/main.min.css" integrity="sha256-Lfe6+s5LEek8iiZ31nXhcSez0nmOxP+3ssquHMR3Alo=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/daygrid/main.min.css" integrity="sha256-AVsv7CEpB2Y1F7ZjQf0WI8SaEDCycSk4vnDRt0L2MNQ=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/list/main.min.css" integrity="sha256-saO3mkZVAcyqsfgsGMrmE7Cs/TLN1RgVykZ5dnnJKug=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/core/main.min.js" integrity="sha256-GBryZPfVv8G3K1Lu2QwcqQXAO4Szv4xlY4B/ftvyoMI=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/daygrid/main.min.js" integrity="sha256-FT1eN+60LmWX0J8P25UuTjEEE0ZYvpC07nnU6oFKFuI=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/list/main.min.js" integrity="sha256-q57s73NpMCTQ4ZXqb1X5bIywrICySeB6WvYxFGfz/PA=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/google-calendar/main.min.js" integrity="sha256-c6/DYGU9nuQL+zHRFAsSo6hRLt/M/QolhlFj99aH3kw=" crossorigin="anonymous"></script>
 <div class="columns is-centered">
     <div class="column is-8">
         <div class="section">
-        <h1 class="title is-2">Events Calendar</h1>
-        <iframe
-            src="https://calendar.google.com/calendar/embed?showPrint=0&amp;showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=q3n3pce86072n9knt3pt65fhio%40group.calendar.google.com&amp;color=%23711616&amp;ctz=Australia%2FBrisbane"
-            style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            <h1 class="title is-2">Events Calendar</h1>
+            <div id="uqcs-calendar"></div>
         </div>
     </div>
 </div>
+<script>
+    const calendar = new FullCalendar.Calendar(document.getElementById('uqcs-calendar'), {
+        plugins: ['googleCalendar', 'dayGrid', 'list'],
+        defaultView: 'listTwoMonths',
+        views: {
+            listTwoMonths: {
+                type: 'list',
+                duration: { months: 2 },
+                buttonText: 'list'
+            }
+        },
+        googleCalendarApiKey: 'AIzaSyC-c78Fu_Rw36zKXh9XvCpTOXvlNPXlyNc',
+        eventSources: [
+            { googleCalendarId: 'q3n3pce86072n9knt3pt65fhio@group.calendar.google.com' },
+        ],
+        header: {
+            left:   'prev,next',
+            center: 'title',
+            right:  'subscribe listTwoMonths,dayGridMonth'
+        },
+        customButtons: {
+            subscribe: {
+                text: 'subscribe',
+                click: function() {
+                    window.open('https://calendar.google.com/calendar/embed?src=q3n3pce86072n9knt3pt65fhio%40group.calendar.google.com&ctz=Australia%2FBrisbane');
+                }
+            }
+        },
+    });
+    calendar.render();
+</script>

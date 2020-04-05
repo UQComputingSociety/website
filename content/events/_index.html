@@ -18,23 +18,22 @@ draft: false
 }
 
 /* next/prev buttons */
-.fc-header-toolbar > .fc-left {
+.fc-header-toolbar > .fc-center {
     margin: 0.5rem 0;
     white-space: nowrap;
     overflow: visible;
-    order: 2;
 }
 
 /* month text is full-width and centered. */
-.fc-header-toolbar > .fc-center {
-    order: 1;
+.fc-header-toolbar > .fc-left {
+    /* full width across flexbox */
     width: 100%;
     flex-basis: 100%;
 }
 
 /* subscribe, list and month buttons */
 .fc-header-toolbar > .fc-right {
-    order: 3;
+
 }
 
 @media screen and (max-width: 374px) {
@@ -42,7 +41,7 @@ draft: false
         justify-content: center;
     }
 
-    .fc-header-toolbar > .fc-center {
+    .fc-header-toolbar > .fc-left {
         text-align: center;
     }
 }
@@ -71,9 +70,10 @@ draft: false
             { googleCalendarId: 'q3n3pce86072n9knt3pt65fhio@group.calendar.google.com' },
         ],
         header: {
-            left:   'prev,next',
-            center: 'title',
-            right:  'subscribe listTwoMonths,dayGridMonth'
+            // note: CSS depends on these elements being left, center, right respectively.
+            left: 'title',
+            center: 'prev,next',
+            right: 'subscribe listTwoMonths,dayGridMonth'
         },
         customButtons: {
             subscribe: {

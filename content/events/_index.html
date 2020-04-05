@@ -10,6 +10,43 @@ draft: false
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/daygrid/main.min.js" integrity="sha256-FT1eN+60LmWX0J8P25UuTjEEE0ZYvpC07nnU6oFKFuI=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/list/main.min.js" integrity="sha256-q57s73NpMCTQ4ZXqb1X5bIywrICySeB6WvYxFGfz/PA=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/google-calendar/main.min.js" integrity="sha256-c6/DYGU9nuQL+zHRFAsSo6hRLt/M/QolhlFj99aH3kw=" crossorigin="anonymous"></script>
+<style>
+/* fix calendar toolbar and make responsive */
+.fc-header-toolbar {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* next/prev buttons */
+.fc-header-toolbar > .fc-left {
+    margin: 0.5rem 0;
+    white-space: nowrap;
+    overflow: visible;
+    order: 2;
+}
+
+/* month text is full-width and centered. */
+.fc-header-toolbar > .fc-center {
+    order: 1;
+    width: 100%;
+    flex-basis: 100%;
+}
+
+/* subscribe, list and month buttons */
+.fc-header-toolbar > .fc-right {
+    order: 3;
+}
+
+@media screen and (max-width: 374px) {
+    .fc-header-toolbar {
+        justify-content: center;
+    }
+
+    .fc-header-toolbar > .fc-center {
+        text-align: center;
+    }
+}
+</style>
 <div class="columns is-centered">
     <div class="column is-8">
         <div class="section">

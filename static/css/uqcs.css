@@ -18,6 +18,13 @@
     font-weight: bold;
 }
 
+.committee-headshots {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
 .committee-headshot {
     border-radius: 50%;
     /*border: 2px solid #444;*/

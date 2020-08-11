@@ -1,0 +1,17 @@
+name: Build Website on PR Branch
+on:
+  pull_request:
+    branches: [ '*' ]
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.64.0'
+
+      - name: Build
+        run: hugo --minify

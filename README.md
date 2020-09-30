@@ -1,4 +1,4 @@
-# UQCS Website
+# UQCS Website:-the computer's world
 
 The website of The University of Queensland Computing Society.
 

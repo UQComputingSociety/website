@@ -13,9 +13,9 @@
 
         {{ partial "footer.html" . }}
 
-        {{ "<!-- Custom JavaScript -->" | safeHTML }}
+        {{ "<!-- Custom JavaScript ->" | safeHTML }}
         {{ range .Site.Params.custom_js }}
-        <script src="{{ . | absURL }}"></script>
+        <script src="{{ . | absURL}}"></script>
         {{ end }}
 
         {{ partial "firebase" . }}

@@ -1,4 +1,4 @@
-# UQCS Website
+# UQCS Amazing websites 
 
 The website of The University of Queensland Computing Society.
 

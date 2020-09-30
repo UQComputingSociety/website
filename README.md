@@ -13,7 +13,7 @@ Which is compiled to static files using Github Actions and then hosted Github Pa
 
 
 ## Contributing
-The UQCS site is a place to show off both the club itself, and the work its members. You can contribute ideas, bugs or suggestions by clicking the Issues tab above and creating a new issue.
+The UQCS site is a place to show off both the club itself, and the work it's members. You can contribute ideas, bugs or suggestions by clicking the Issues tab above and creating a new issue.
 
 You can contribute code by forking the repository, making your changes and creating a pull request. It's encouraged to create an issue for the changes you plan on making in your pull request and you should mention the IDs of any issues you work on in your pull request description.
 
@@ -44,9 +44,9 @@ The /events calendar uses FullCalendar.js and fetches events from Google Calenda
 4. Go to APIs & Services &rarr; Credentials and create new credentials. This page also shows existing API keys.
 5. Copy the key use it where needed. Optionally, you can restrict this key to specific websites and APIs.
 
-### Showcasing your project
+### Showcasing Your Project
 
-Coming Soon TM
+Coming Soon... TM
 
 
 ## Licensing

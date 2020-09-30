@@ -1,4 +1,4 @@
-# UQCS Website
+# UQCS Website--Amazing Website
 
 The website of The University of Queensland Computing Society.
 
@@ -23,7 +23,7 @@ Want help with creating a pull request? No problem!
 Email us at contact@uqcs.org.au for help, or ask in [Slack](https://slack.uqcs.org.au/).
 
 
-### Getting Setup
+###  Setup
 
 1. [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 2. [Install Hugo](https://gohugo.io/getting-started/installing/)

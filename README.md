@@ -49,6 +49,6 @@ The /events calendar uses FullCalendar.js and fetches events from Google Calenda
 Coming Soon TM
 
 
-## Licensing
+## License
 
 This project is licensed under the Apache License 2.0.

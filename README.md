@@ -1,6 +1,7 @@
 # UQCS Website
-
+# Its very usefull for us 
 The website of The University of Queensland Computing Society.
+Wthis website is best to learn frameworks with newly hand operations
 
 This site is built on a verison of the [jamstack](https://jamstack.org/) using:
 

@@ -34,7 +34,7 @@ Email us at contact@uqcs.org.au for help, or ask in [Slack](https://slack.uqcs.o
 7. Open your preferred browser.
 8. Navigate to http://localhost:1313/
 
-### Google Calendar API Key
+### Google Calendar application programming interface(API) Key
 
 The /events calendar uses FullCalendar.js and fetches events from Google Calendar. To do this, it needs a Google API key. Currently, the production key is specified in [events/\_index.html](https://github.com/UQComputingSociety/website/blob/master/content/events/_index.html) but you will need your own key to test locally.
 

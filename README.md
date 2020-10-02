@@ -1,6 +1,6 @@
 # UQCS Website
 
-The website of The University of Queensland Computing Society.
+The website belongs to The University of Queensland Computing Society.
 
 This site is built on a verison of the [jamstack](https://jamstack.org/) using:
 

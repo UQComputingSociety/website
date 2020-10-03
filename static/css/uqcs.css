@@ -62,6 +62,26 @@
     background-color: rgba(0, 0, 0, 0.2);
 }
 
+.showcase-gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+.showcase-image {
+    border-radius: 50%;
+    /*border: 2px solid #444;*/
+    width: 100%;
+}
+
+.showcase-element {
+    min-width: 10rem;
+    max-width: 10rem;
+
+    margin: 25px 25px;
+}
+
 .button-box:hover {
     box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.2), 0 0px 0 1px rgba(10, 10, 10, 0.04);
     cursor: pointer;

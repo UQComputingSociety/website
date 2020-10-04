@@ -26,6 +26,7 @@ When merging a pull request, make sure you have received a review from one of th
 
 * [@jam](https://github.com/jdcaperon) (jdcaperon)
 * [@noodle](https://github.com/nicklambourne) (nicklambourne)
+* [@kenton](https://github.com/kentonlam) (kentonlam)
 
 If you want to add yourself to this list, make a PR and request review from someone above.
 

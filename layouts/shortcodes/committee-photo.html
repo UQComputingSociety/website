@@ -15,6 +15,9 @@
             {{ with (.Get "title") -}}
                 <h4>{{ . }}</h4>
             {{- end -}}
+            {{ with (.Get "subtitle") -}}
+                <small>{{ . }}</small>
+            {{- end -}}
             {{- if or (.Get "caption") (.Get "attr") -}}<p>
                 <b>{{- .Get "caption" | markdownify -}}</b>
                 {{- with .Get "attrlink" }}

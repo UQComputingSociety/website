@@ -1,28 +1,34 @@
 {{ $_hugo_config := `{ "version": 1 }` }}
-<figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
-    {{- if .Get "link" -}}
-        <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
-    {{- end }}
-    <img src="{{ .Get "src" }}"
-         {{- if or (.Get "alt") (.Get "caption") }}
-         alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
-         {{- end -}}
-         {{- with .Get "image-class" }} class="{{ . }}"{{ end -}}
-    /> <!-- Closing img tag -->
-    {{- if .Get "link" }}</a>{{ end -}}
-    {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
-        <figcaption>
-            {{ with (.Get "title") -}}
-                <h4><b>{{ . }}</b></h4>
-            {{- end -}}
-            {{- if or (.Get "caption") (.Get "attr") -}}<p>
-                {{- .Get "caption" | markdownify -}}
-                {{- with .Get "attrlink" }}
-                    <a href="{{ . }}">
-                {{- end -}}
-                {{- .Get "attr" | markdownify -}}
-                {{- if .Get "attrlink" }}</a>{{ end }}</p>
-            {{- end }}
-        </figcaption>
-    {{- end }}
-</figure>
+<div class="column is-4-widescreen is-6">
+    <div class="card" style="height: 100%">
+        <div class="card-image">
+            <figure class="image">
+                {{- if .Get "link" -}} <a href="{{ .Get "link" }}"> {{- end }}
+                    <img src="{{ .Get "src" }}">
+                    {{- if .Get "link" -}} </a> {{- end }}
+            </figure>
+        </div>
+        <div class="card-content">
+            <div class="media">
+                <div class="media-content">
+                    {{- if .Get "link" -}} <a href="{{ .Get "link" }}"> {{- end }}
+                        <p class="title is-4">{{ .Get "title" }}</p>
+                    {{- if .Get "link" -}} </a> {{- end }}
+                </div>
+            </div>
+
+            <div class="content" style="line-height: 1.1;">
+                <small>
+                    {{ .Get "caption" | safeHTML }}
+                </small>
+            </div>
+        </div>
+    </div>
+    <div class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+            {{ .Get "caption" | safeHTML }}
+        </div>
+        <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+</div>

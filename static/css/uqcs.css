@@ -34,7 +34,6 @@
 .committee-element {
     min-width: 10rem;
     max-width: 10rem;
-
     margin: 25px 25px;
 }
 
@@ -60,6 +59,26 @@
 
 #share-buttons .button:hover {
     background-color: rgba(0, 0, 0, 0.2);
+}
+
+.showcase-gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+.showcase-image {
+    border-radius: 5%;
+    /*border: 2px solid #444;*/
+    width: 100%;
+}
+
+.showcase-element {
+    min-width: 10rem;
+    max-width: 10rem;
+
+    margin: 25px 25px;
 }
 
 .button-box:hover {

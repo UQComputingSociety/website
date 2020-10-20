@@ -1,20 +1,18 @@
 {{ $_hugo_config := `{ "version": 1 }` }}
-<div class="column is-4-widescreen is-6">
+<div class="column is-12-mobile is-6-tablet is-4-widescreen">
     <div class="card" style="height: 100%">
         <div class="card-image">
-            <figure class="image">
+            <figure class="image showcase-image">
                 {{- if .Get "link" -}} <a href="{{ .Get "link" }}"> {{- end }}
                     <img src="{{ .Get "src" }}">
                     {{- if .Get "link" -}} </a> {{- end }}
             </figure>
         </div>
         <div class="card-content">
-            <div class="media">
-                <div class="media-content">
-                    {{- if .Get "link" -}} <a href="{{ .Get "link" }}"> {{- end }}
-                        <p class="title is-4">{{ .Get "title" }}</p>
-                    {{- if .Get "link" -}} </a> {{- end }}
-                </div>
+            <div class="block">
+                {{- if .Get "link" -}} <a href="{{ .Get "link" }}"> {{- end }}
+                    <p class="title is-4">{{ .Get "title" }}</p>
+                {{- if .Get "link" -}} </a> {{- end }}
             </div>
 
             <div class="content" style="line-height: 1.1;">

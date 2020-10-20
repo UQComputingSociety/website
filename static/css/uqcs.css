@@ -61,26 +61,6 @@
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-.showcase-gallery {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; 
-    justify-content: center;
-}
-
-.showcase-image {
-    border-radius: 5%;
-    /*border: 2px solid #444;*/
-    width: 100%;
-}
-
-.showcase-element {
-    min-width: 10rem;
-    max-width: 10rem;
-
-    margin: 25px 25px;
-}
-
 .button-box:hover {
     box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.2), 0 0px 0 1px rgba(10, 10, 10, 0.04);
     cursor: pointer;
@@ -88,4 +68,20 @@
 
 h5 {
     padding-top: 20px;
+}
+
+.showcase-image img { 
+    position:  absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.showcase-image {
+    width: 100%;
+    padding-top: 75%;
 }

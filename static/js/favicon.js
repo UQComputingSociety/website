@@ -1,6 +1,7 @@
+let lightSchemeIcon = document.querySelector('link#light-scheme-icon');
+let darkSchemeIcon = document.querySelector('link#dark-scheme-icon');
+
 function onUpdate() {
-    let lightSchemeIcon = document.querySelector('link#light-scheme-icon');
-    let darkSchemeIcon = document.querySelector('link#dark-scheme-icon');
 
     if (matcher.matches) {
         if (lightSchemeIcon != null) {

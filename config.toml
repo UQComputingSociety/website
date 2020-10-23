@@ -17,6 +17,6 @@ title = "UQCS"
 
     # Custom assets e.g. "/css/style.css"
 	custom_css = ["/css/uqcs.css", "/css/colors.css"]
-	custom_js  = ["/js/navigation.js", "/js/button-box.js"]
+	custom_js  = ["/js/navigation.js", "/js/button-box.js", "/js/favicon.js"]
     custom_ico = "/img/favicon/favicon.ico"
     custom_fonts = []

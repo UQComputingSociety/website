@@ -4,7 +4,7 @@
 <meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
 <meta name="author" content="{{ with .Site.Params.name }}{{ . }}{{ end }}">
 
-<title>{{ .Site.Title }}</title>
+<title>{{ block "title" . }}{{ .Site.Title }} {{ with .Params.Title }} | {{ . }}{{ end }}{{ end }}</title>
 
 {{ "<!-- Compiled and minified CSS -->" | safeHTML }}
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">

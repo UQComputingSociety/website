@@ -19,10 +19,10 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          publish_dir: ./public
-          user_name: uqcs
-          user_email: contact@uqcs.org.au
+      # - name: Deploy
+        # uses: peaceiris/actions-gh-pages@v3
+        # with:
+          # deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          # publish_dir: ./public
+          # user_name: uqcs
+          # user_email: contact@uqcs.org.au

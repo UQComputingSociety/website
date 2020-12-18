@@ -1,87 +1,94 @@
 /*UQCS Website Style Sheet*/
 
 .uqcs-background {
-    background-image: url(../img/hero-background.png);
+  background-color: var(--uqcs-grey);
 }
 
 .sponsor-img {
-    width: 90%;
+  width: 90%;
 }
 
 .sponsor-container {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .name-banner {
-    align-items: center;
-    font-weight: bold;
+  align-items: center;
+  font-weight: bold;
 }
 
 .committee-headshots {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; 
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .committee-headshot {
-    border-radius: 50%;
-    /*border: 2px solid #444;*/
-    width: 100%;
+  border-radius: 50%;
+  /*border: 2px solid #444;*/
+  width: 100%;
 }
 
 .committee-element {
-    min-width: 10rem;
-    max-width: 10rem;
-    margin: 25px 25px;
+  min-width: 10rem;
+  max-width: 10rem;
+  margin: 25px 25px;
 }
 
 .join-button {
-    background-color: var(--uqcs-light-blue);
-    border-color: transparent;
-    color: white;
+  background-color: var(--uqcs-blue);
+  border-color: transparent;
+  color: white;
+  border-radius: 0;
 }
 
 .join-button:hover {
-    background-color: var(--uqcs-light-blue-darker);
-    border-color: transparent;
-    color: white;
+  background-color: var(--uqcs-blue-darker);
+  border-color: transparent;
+  color: white;
 }
 
-.join-button:active, .join-button:focus {
-    color: white;
+.join-button:active,
+.join-button:focus {
+  color: white;
 }
 
 #share-buttons .button {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 #share-buttons .button:hover {
-    background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .button-box:hover {
-    box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.2), 0 0px 0 1px rgba(10, 10, 10, 0.04);
-    cursor: pointer;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.2),
+    0 0px 0 1px rgba(10, 10, 10, 0.04);
+  cursor: pointer;
 }
 
 h5 {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
-.showcase-image img { 
-    position:  absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
+.showcase-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
 .showcase-image {
-    width: 100%;
-    padding-top: 75%;
+  width: 100%;
+  padding-top: 75%;
+}
+
+.card {
+  border-radius: 0;
 }

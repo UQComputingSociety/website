@@ -16,7 +16,8 @@ title = "UQCS"
     description = "The UQ Computing Society provides a fun, social and inclusive environment for those interested in coding and technology."
 
     # Custom assets e.g. "/css/style.css"
-	custom_css = ["/css/uqcs.css", "/css/colors.css"]
+	# custom_css = ["/css/uqcs.css", "/css/colors.css"]
+	# custom_scss = ["/css/uqcs.scss"]
 	custom_js  = ["/js/navigation.js", "/js/button-box.js", "/js/favicon.js"]
     custom_ico = "/img/favicon/favicon.ico"
     custom_fonts = []

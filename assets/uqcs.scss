@@ -39,13 +39,13 @@
 }
 
 .join-button {
-  background-color: $uqcs-blue;
+  background-color: white;
   border-color: transparent;
-  color: white;
+  color: $uqcs-blue;
 }
 
 .join-button:hover {
-  background-color: $uqcs-blue-darker;
+  background-color: $uqcs-blue;
   border-color: transparent;
   color: white;
 }

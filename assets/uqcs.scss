@@ -94,3 +94,9 @@ h5 {
   width: 90%;
   margin: 0 auto 20px auto;
 }
+
+.fc-button {
+	background-color: $blue !important;
+	border-color: darken($blue, 20%) !important;
+}
+

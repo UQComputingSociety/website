@@ -39,20 +39,20 @@
 }
 
 .join-button {
-  background-color: white;
-  border-color: transparent;
-  color: $blue;
-}
-
-.join-button:hover {
   background-color: $blue;
   border-color: transparent;
   color: white;
 }
 
+.join-button:hover {
+  background-color: white;
+  border-color: transparent;
+  color: $blue;
+}
+
 .join-button:active,
 .join-button:focus {
-  color: white;
+  color: $blue;
 }
 
 #share-buttons .button {

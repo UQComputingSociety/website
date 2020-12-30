@@ -1,6 +1,6 @@
 /*UQCS Website Style Sheet*/
 .uqcs-background {
-  background-color: $uqcs-grey;
+  background-color: $grey;
   background-image: url(../img/hero-background.png);
   background-size: cover;
 }
@@ -41,11 +41,11 @@
 .join-button {
   background-color: white;
   border-color: transparent;
-  color: $uqcs-blue;
+  color: $blue;
 }
 
 .join-button:hover {
-  background-color: $uqcs-blue;
+  background-color: $blue;
   border-color: transparent;
   color: white;
 }

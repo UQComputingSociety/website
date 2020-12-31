@@ -31,7 +31,8 @@
   width: 100%;
 }
 
-.committee-element {
+.committee-element.box {
+  /* need to override precedence of margin-bottom on bulma's .box */
   min-width: 12rem;
   max-width: 12rem;
   margin: 10px 10px;

@@ -7,21 +7,24 @@
 <title>{{ block "title" . }}{{ .Site.Title }} {{ with .Params.Title }} | {{ . }}{{ end }}{{ end }}</title>
 
 {{ "<!-- Compiled and minified CSS -->" | safeHTML }}
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"> -->
+{{ "<!-- Custom CSS -->" | safeHTML }}
+{{ $cssOpts := (dict "includePaths" (slice "node_modules/bulma" "assets/scss")) }}
+{{ $style := resources.Get "main.scss" | toCSS $cssOpts }}
+<link rel="stylesheet" type="text/css" href="{{ $style.Permalink | relURL }}">
 {{ "<!-- Font Awesome -->" | safeHTML }}
 <script defer src="https://use.fontawesome.com/releases/v5.12.1/js/all.js"></script>
 {{ "<!-- Custom CSS -->" | safeHTML }}
-{{ range .Site.Params.custom_css }}
+<!-- {{ range .Site.Params.custom_css }}
 <link rel="stylesheet" type="text/css" href="{{ . | absURL }}">
-{{ end }}
+{{ end }} -->
 {{ "<!-- Custom Fonts -->" | safeHTML }}
 {{ range .Site.Params.custom_fonts }}
 <link rel="stylesheet" href="{{ . | absURL }}">
 {{ end }}
 {{ "<!-- Custom ICO -->" | safeHTML }}
 <link rel="shortcut icon" type="image/x-icon" href="{{ .Site.Params.custom_ico }}">
-<link rel="icon" media="(prefers-color-scheme:dark)" href="/img/favicon/favicon-dark.ico" type="image/png" id="dark-scheme-icon"/>
-<link rel="icon" media="(prefers-color-scheme:light)" href="/img/favicon/favicon-light.ico" type="image/png" id="light-scheme-icon"/>
+<link rel="icon" href="/img/favicon/favicon.ico" type="image/png"/>
 <!-- Load webcomponents and script to convert external MD files to HTML -->
 {{ if .Params.mdconvert}}
 <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>

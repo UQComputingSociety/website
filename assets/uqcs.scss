@@ -1,0 +1,144 @@
+/*UQCS Website Style Sheet*/
+.uqcs-background {
+  background-color: $grey;
+//   background-image: url(../img/hero-background.png);
+  background-size: cover;
+}
+
+.sponsor-img {
+  width: 90%;
+}
+
+.sponsor-container {
+  display: flex;
+  align-items: center;
+}
+
+.name-banner {
+  align-items: center;
+  font-weight: bold;
+}
+
+.committee-headshots {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.committee-headshot {
+  border-radius: 0%;
+  width: 100%;
+}
+
+.committee-element.box {
+  /* need to override precedence of margin-bottom on bulma's .box */
+  min-width: 12rem;
+  max-width: 12rem;
+  margin: 10px 10px;
+}
+
+.join-button {
+  background-color: $blue;
+  border-color: transparent;
+  color: white;
+}
+
+.join-button:hover {
+  background-color: white;
+  border-color: transparent;
+  color: $blue;
+}
+
+.join-button:active,
+.join-button:focus {
+  color: $blue;
+}
+
+#share-buttons .button {
+  background-color: transparent;
+}
+
+#share-buttons .button:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.button-box:hover {
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.2),
+    0 0px 0 1px rgba(10, 10, 10, 0.04);
+  cursor: pointer;
+}
+
+h5 {
+  padding-top: 20px;
+}
+
+.showcase-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.showcase-image {
+  width: 100%;
+  padding-top: 75%;
+}
+
+zero-md > * {
+  font-family: "Arial" !important;
+}
+
+.uqcs-blurb {
+  max-width: 800px;
+  width: 90%;
+  margin: 0 auto 20px auto;
+}
+
+.section {
+  opacity: 1;
+  -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 0.5s; /* Firefox < 16 */
+  -ms-animation: fadein 0.5s; /* Internet Explorer */
+  -o-animation: fadein 0.5s; /* Opera < 12.1 */
+  animation: fadein 0.5s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.level {
+  gap: 20px;
+}
+
+
+/* style for fullcalendar on events page */
+.fc-button {
+  background-color: $blue !important;
+  border: 2px solid white !important;
+  border-radius: 0px !important;
+}

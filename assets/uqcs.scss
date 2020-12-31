@@ -95,11 +95,6 @@ h5 {
   margin: 0 auto 20px auto;
 }
 
-.fc-button {
-	background-color: $blue !important;
-	border-color: darken($blue, 20%) !important;
-}
-
 .section {
   opacity: 1;
   -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
@@ -134,4 +129,12 @@ h5 {
 
 .level {
   gap: 20px;
+}
+
+
+/* style for fullcalendar on events page */
+.fc-button {
+  background-color: $blue !important;
+  border: 2px solid white !important;
+  border-radius: 0px !important;
 }

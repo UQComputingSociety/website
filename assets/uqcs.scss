@@ -1,7 +1,7 @@
 /*UQCS Website Style Sheet*/
 .uqcs-background {
   background-color: $grey;
-  background-image: url(../img/hero-background.png);
+//   background-image: url(../img/hero-background.png);
   background-size: cover;
 }
 
@@ -86,6 +86,10 @@ h5 {
 .showcase-image {
   width: 100%;
   padding-top: 75%;
+}
+
+zero-md > * {
+  font-family: "Arial" !important;
 }
 
 .uqcs-blurb {

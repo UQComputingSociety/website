@@ -1,7 +1,33 @@
+/* ========================
+ * UQCS Website Style Sheet
+ * ========================
+ *
+ * This file contains custom CSS specific to the uqcs.org website.
+ *
+ * The majority of the website is built using Bulma. Prefer to use Bulma's
+ * classes and components over adding custom styles here.
+ *
+ * Bulma documentation: https://bulma.io/documentation/
+ *
+ * UQCS has a custom build of Bulma with tweaked colours to match our design.
+ * If a Bulma class has the incorrect colours or styling, submit an issue or PR
+ * to https://github.com/UQComputingSociety/static. Do not simply override it
+ * in this file.
+ *
+ */
+
+:root {
+  /*
+   * These should match the Sass variables at
+   * https://github.com/UQComputingSociety/static/blob/main/bulma/variables.scss
+   */
+  --grey: #414141;
+  --blue: #50C3F0;
+}
+
 /*UQCS Website Style Sheet*/
 .uqcs-background {
-  background-color: $grey;
-//   background-image: url(../img/hero-background.png);
+  background-color: var(--grey);
   background-size: cover;
 }
 
@@ -39,7 +65,7 @@
 }
 
 .join-button {
-  background-color: $blue;
+  background-color: var(--blue);
   border-color: transparent;
   color: white;
 }
@@ -47,12 +73,12 @@
 .join-button:hover {
   background-color: white;
   border-color: transparent;
-  color: $blue;
+  color: var(--blue);
 }
 
 .join-button:active,
 .join-button:focus {
-  color: $blue;
+  color: var(--blue);
 }
 
 #share-buttons .button {
@@ -109,36 +135,51 @@ zero-md > * {
 }
 
 @keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* Firefox < 16 */
 @-moz-keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* Internet Explorer */
 @-ms-keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .level {
   gap: 20px;
 }
 
-
 /* style for fullcalendar on events page */
 .fc-button {
-  background-color: $blue !important;
+  background-color: var(--blue) !important;
   border: 2px solid white !important;
   border-radius: 0px !important;
 }

@@ -27,11 +27,9 @@ Email us at contact@uqcs.org.au for help, or ask in [Slack](https://slack.uqcs.o
 
 1. [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 2. [Install Hugo](https://gohugo.io/getting-started/installing/) (make sure to get the extended version).
-3. [Install Yarn](https://yarnpkg.com/getting-started/install).
 4. Open your preferred terminal.
 5. Run `git clone https://github.com/UQComputingSociety/website.git`
 6. Run `cd website`
-7. Run `yarn`
 8. Run `hugo server -D`
 9. Open your preferred browser.
 10. Navigate to http://localhost:1313/

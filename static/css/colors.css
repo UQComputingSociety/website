@@ -1,0 +1,20 @@
+:root {
+    --uqcs-grey: #2F312E;
+    --uqcs-dark-grey: #20211F;
+    --uqcs-blue: #3498DB;
+    --uqcs-light-blue: #5397d1;
+    --uqcs-light-blue-darker: #37668e;
+}
+
+.uqcs_grey {
+    background-color: var(--uqcs-grey) !important;
+    /*background-color: #27498C !important;*/
+}
+
+.uqcs_blue {
+    background-color: var(--uqcs-blue) !important;
+}
+
+.uqcs_dark_grey {
+    background-color: var(--uqcs-dark-grey) !important;
+}

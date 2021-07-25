@@ -1,21 +1,21 @@
 {{ "<!-- Navbar End -->" | safeHTML }}
 
-<a class="navbar-item" href="{{ .Site.BaseURL }}/about">
+<a class="navbar-item" href="{{ "/about" | relURL }}">
     About
 </a>
-<a class="navbar-item" href="{{ .Site.BaseURL }}/talks">
+<a class="navbar-item" href="{{ "/talks" | relURL }}">
     Talks
 </a>
-<a class="navbar-item" href="{{ .Site.BaseURL }}/showcase">
+<a class="navbar-item" href="{{ "/showcase" | relURL }}">
     Showcase
 </a>
-<a class="navbar-item" href="{{ .Site.BaseURL }}/events">
+<a class="navbar-item" href="{{ "/events" | relURL }}">
     Events
 </a>
-<a class="navbar-item" href="{{ .Site.BaseURL }}/connect">
+<a class="navbar-item" href="{{ "/connect" | relURL }}">
     Connect
 </a>
-<a class="navbar-item" href="{{ .Site.BaseURL }}/lambda">
+<a class="navbar-item" href="{{ "/lambda" | relURL }}">
     Why Lambda?
 </a>
 

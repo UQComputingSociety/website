@@ -5,7 +5,7 @@ The UQCS site is a place to show off both the club itself, and the work its memb
 You can contribute code by forking the repository, making your changes and creating a pull request. It's encouraged to create an issue for the changes you plan on making in your pull request and you should mention the IDs of any issues you work on in your pull request description.
 
 Want help with creating a pull request? No problem!
-Email us at contact@uqcs.org.au for help, or ask in [Slack](https://slack.uqcs.org.au/).
+Email us at contact@uqcs.org.au for help, or jump onto [Discord](https://discord.uqcs.org/) and ask in #projects for advice.
 
 Please note we have a code of conduct, please follow it in all your interactions with the project.
 
@@ -18,7 +18,7 @@ Please note we have a code of conduct, please follow it in all your interactions
 5. [Request a review](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/requesting-a-pull-request-review) from one of the reviewers listed in the reviewers section of this document.
 6. When your pull request is reviewed and approved, click `Squash and Merge`, clear the commits from below the merge title, then confirm.
 
-If the steps above are unclear, jump onto [Slack](https://slack.uqcs.org.au/) and ask in #projects for advice.
+If the steps above are unclear, jump onto [Discord](https://discord.uqcs.org/) and ask in #projects for advice.
 
 ## Reviewers
 

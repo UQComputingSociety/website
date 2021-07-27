@@ -20,7 +20,7 @@ You can contribute code by forking the repository, making your changes and creat
 For more information checkout the [CONTRIBUTING.md](CONTRIBUTING.md)
 
 Want help with creating a pull request? No problem!
-Email us at contact@uqcs.org.au for help, or ask in [Slack](https://slack.uqcs.org.au/).
+Email us at contact@uqcs.org.au for help, or ask in [Discord](https://discord.uqcs.org/).
 
 
 ### Getting Setup

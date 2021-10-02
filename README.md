@@ -20,13 +20,13 @@ You can contribute code by forking the repository, making your changes and creat
 For more information checkout the [CONTRIBUTING.md](CONTRIBUTING.md)
 
 Want help with creating a pull request? No problem!
-Email us at contact@uqcs.org.au for help, or ask in [Slack](https://slack.uqcs.org.au/).
+Email us at contact@uqcs.org.au for help, or ask in [Discord](https://discord.uqcs.org/).
 
 
 ### Getting Setup
 
-1. [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-2. [Install Hugo](https://gohugo.io/getting-started/installing/)
+1. [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+2. [Install Hugo](https://gohugo.io/getting-started/installing/) (make sure to get the extended version).
 3. Open your preferred terminal.
 4. Run `git clone https://github.com/UQComputingSociety/website.git`
 5. Run `cd website`

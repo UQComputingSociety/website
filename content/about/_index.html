@@ -6,7 +6,7 @@ draft: false
 
 {{< blocks/hero >}}
 <div class="container has-text-centered ">
-    <img src="{{< baseurl >}}/img/logo/logo-long.svg" style="max-width: 600px;" />
+    <img src="{{< relURL "/img/logo/logo-long-white.svg" >}}" style="max-width: 400px;" />
 </div>
 <section class="section has-text-centered is-size-5">
     <div class="columns is-centered">
@@ -66,42 +66,30 @@ draft: false
         <div class="column is-9-desktop">
             <div class="tile is-ancestor">
                 <div class="tile is-parent">
-                    <article class="tile is-child box button-box" href="{{< baseurl >}}/competitions">
+                    <article class="tile is-child box button-box" href="{{< relURL "/competitions/" >}}">
                         <p class="title has-text-centered">Competitions</p>
-                        <div class="columns is-centered">
-                            <div class="column is-8">
-                                <figure class="image is-256x256"
-                                    style="display: block; margin-left: auto; margin-right: auto;">
-                                    <img src="{{< baseurl >}}/img/media/code_jam.jpg" style="border-radius: 5%;">
-                                </figure>
-                            </div>
-                        </div>
+                        <figure class="image is-256x256"
+                            style="display: block; margin-left: auto; margin-right: auto;">
+                            <img src="{{< relURL "/img/media/competitions/code_jam.jpg" >}}">
+                        </figure>
                     </article>
                 </div>
                 <div class="tile is-parent">
-                    <article class="tile is-child box button-box" href="{{< baseurl >}}/community">
+                    <article class="tile is-child box button-box" href="{{< relURL "/community/" >}}">
                         <p class="title has-text-centered">Community</p>
-                        <div class="columns is-centered">
-                            <div class="column is-8">
-                                <figure class="image is-256x256"
-                                    style="display: block; margin-left: auto; margin-right: auto;">
-                                    <img src="{{< baseurl >}}/img/media/community.jpg" style="border-radius: 5%;">
-                                </figure>
-                            </div>
-                        </div>
+                        <figure class="image is-256x256"
+                            style="display: block; margin-left: auto; margin-right: auto;">
+                            <img src="{{< relURL "/img/media/community.jpg" >}}">
+                        </figure>
                     </article>
                 </div>
                 <div class="tile is-parent">
-                    <article class="tile is-child box button-box" href="{{< baseurl >}}/industry">
+                    <article class="tile is-child box button-box" href="{{< relURL "/industry/" >}}">
                         <p class="title has-text-centered">Industry</p>
-                        <div class="columns is-centered">
-                            <div class="column is-8">
-                                <figure class="image is-256x256"
-                                    style="display: block; margin-left: auto; margin-right: auto;">
-                                    <img src="{{< baseurl >}}/img/media/industry_panel.jpg" style="border-radius: 5%;">
-                                </figure>
-                            </div>
-                        </div>
+                        <figure class="image is-256x256"
+                            style="display: block; margin-left: auto; margin-right: auto;">
+                            <img src="{{< relURL "/img/media/industry_panel.jpg" >}}">
+                        </figure>
                     </article>
                 </div>
             </div>
@@ -111,7 +99,7 @@ draft: false
         <div class="column is-6-desktop is-8-tablet">
             <div class="tile is-ancestor">
                 <div class="tile is-parent">
-                    <article class="tile is-child box button-box has-text-centered" href="{{< baseurl >}}/constitution">
+                    <article class="tile is-child box button-box has-text-centered" href="{{< relURL "/constitution/" >}}">
                         <p class="title has-text-centered">Constitution</p>
                         <span class="icon is-large has-text-dark">
                             <i class="fas fa-4x fa-book"></i>
@@ -119,7 +107,7 @@ draft: false
                     </article>
                 </div>
                 <div class="tile is-parent">
-                    <article class="tile is-child box button-box has-text-centered" href="{{< baseurl >}}/code-of-conduct">
+                    <article class="tile is-child box button-box has-text-centered" href="{{< relURL "/code-of-conduct/" >}}">
                         <p class="title has-text-centered">Code of Conduct</p>
                         <span class="icon is-large has-text-dark">
                             <i class="fas fa-4x fa-gavel"></i>
@@ -136,7 +124,7 @@ draft: false
         <div class="column is-8">
             <div class="content">
                 <h1 class="title">Our Constitutional Goals</h1>
-                <ul class="is-size-5">
+                <ul class="is-size-6">
                     <li>To provide a fun, social, and inclusive environment for those interested in coding and
                         technology.</li>
                     <li>Educate our members through programming competitions, peer-workshops, group projects and other
@@ -152,7 +140,7 @@ draft: false
     <div class="block has-text-centered">
         <h1 class="title is-2">The Executive</h1>
     </div>
-    <div class="container is-size-5">
+    <div class="container is-size-6">
         <div class="columns is-centered">
             <div class="column is-8">
                 <div class="committee-headshots">
@@ -163,7 +151,7 @@ draft: false
                         caption="President"
                         link="mailto:president@uqcs.org.au"
                         image-class="committee-headshot"
-                        class="committee-element has-text-centered"
+                        class="committee-element box"
                     >}}
                     {{< committee-photo 
                         src="/img/media/exec/sanni.jpg" 
@@ -172,7 +160,7 @@ draft: false
                         caption="Secretary"
                         link="mailto:secretary@uqcs.org.au"
                         image-class="committee-headshot"
-                        class="committee-element has-text-centered"
+                        class="committee-element box"
                     >}}
                     {{< committee-photo 
                         src="/img/media/exec/kenton.jpg" 
@@ -181,7 +169,7 @@ draft: false
                         caption="Treasurer"
                         link="mailto:treasurer@uqcs.org.au"
                         image-class="committee-headshot"
-                        class="committee-element has-text-centered"
+                        class="committee-element box"
                     >}}
                 </div>
                 <div class="committee-headshots">
@@ -190,42 +178,42 @@ draft: false
                         title="Sylvia Chen"
                         subtitle="(@Sylvia Chen)"
                         image-class="committee-headshot"
-                        class="committee-element has-text-centered"
+                        class="committee-element box"
                     >}}
                     {{< committee-photo 
                         src="/img/media/exec/paul.jpg" 
                         title="Paul Clarke"
                         subtitle="(@filez)"
                         image-class="committee-headshot"
-                        class="committee-element has-text-centered"
+                        class="committee-element box"
                     >}}
                     {{< committee-photo 
                         src="/img/media/exec/tom.jpg" 
                         title="Tom Cranitch"
                         subtitle="(@tom)"
                         image-class="committee-headshot"
-                        class="committee-element has-text-centered"
+                        class="committee-element box"
                     >}}
                     {{< committee-photo 
                         src="/img/media/exec/darren.jpg" 
                         title="Darren Fu"
                         subtitle="(@dr2n)"
                         image-class="committee-headshot"
-                        class="committee-element has-text-centered"
+                        class="committee-element box"
                     >}}
                     {{< committee-photo 
                         src="/img/media/exec/kumar-ish.jpg" 
                         title="Madhav Kumar"
                         subtitle="(@kumar-ish)"
                         image-class="committee-headshot"
-                        class="committee-element has-text-centered"
+                        class="committee-element box"
                     >}}
                     {{< committee-photo 
                         src="/img/media/exec/matthew.jpg" 
                         title="Matthew Low"
                         subtitle="(@mcl)"
                         image-class="committee-headshot"
-                        class="committee-element has-text-centered"
+                        class="committee-element box"
                     >}}
                     <!-- olivia's hyphen is a unicode non-breaking hyphen -->
                     {{< committee-photo 
@@ -233,14 +221,14 @@ draft: false
                         title="Olivia Mackenzie‑Ross"
                         subtitle="(@Liv-turtle)"
                         image-class="committee-headshot"
-                        class="committee-element has-text-centered"
+                        class="committee-element box"
                     >}}
                     {{< committee-photo 
                         src="/img/media/exec/utkarsh.jpg" 
                         title="Utkarsh Sharma"
                         subtitle="(@Utkarsh Sharma)"
                         image-class="committee-headshot"
-                        class="committee-element has-text-centered"
+                        class="committee-element box"
                     >}}
                 </div>
             </div>

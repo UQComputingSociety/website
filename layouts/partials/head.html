@@ -7,7 +7,8 @@
 <title>{{ block "title" . }}{{ .Site.Title }} {{ with .Params.Title }} | {{ . }}{{ end }}{{ end }}</title>
 
 {{ "<!-- Compiled and minified CSS -->" | safeHTML }}
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"> -->
+{{ "<!-- Custom CSS -->" | safeHTML }}
 {{ "<!-- Font Awesome -->" | safeHTML }}
 <script defer src="https://use.fontawesome.com/releases/v5.12.1/js/all.js"></script>
 {{ "<!-- Custom CSS -->" | safeHTML }}
@@ -20,8 +21,7 @@
 {{ end }}
 {{ "<!-- Custom ICO -->" | safeHTML }}
 <link rel="shortcut icon" type="image/x-icon" href="{{ .Site.Params.custom_ico }}">
-<link rel="icon" media="(prefers-color-scheme:dark)" href="/img/favicon/favicon-dark.ico" type="image/png" id="dark-scheme-icon"/>
-<link rel="icon" media="(prefers-color-scheme:light)" href="/img/favicon/favicon-light.ico" type="image/png" id="light-scheme-icon"/>
+<link rel="icon" href="/img/favicon/favicon.ico" type="image/png"/>
 <!-- Load webcomponents and script to convert external MD files to HTML -->
 {{ if .Params.mdconvert}}
 <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>

@@ -34,6 +34,15 @@ Email us at contact@uqcs.org.au for help, or ask in [Discord](https://discord.uq
 7. Open your preferred browser.
 8. Navigate to http://localhost:1313/
 
+##### WSL
+A couple extra steps are needed for running hugo on WSL. Do steps 1-5, then:
+
+6. In a windows terminal, use `wsl -t $name` to terminate any WSL instances except the one you want to run hugo on.
+7. Run `wsl hostname -I` to find the IP address of that WSL instance.
+8. Run `hugo server -D --bind $ip --baseURL=$ip` instead of just `hugo server -D`
+9. Open your preferred browser.
+10. Navigate to http://$ip:1313/
+
 ### Showcasing Your Project
 
 Have you built something cool you want to show off to the world? It's easy to publish your project to the [UQCS Showcase](https://uqcs.org/showcase/).

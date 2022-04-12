@@ -1,6 +1,6 @@
 {{ "<!-- Homepage Hero -->" | safeHTML }}
 
-<section class="hero is-dark uqcs-background">
+<section class="hero">
 
     <!-- Hero head: will stick at the top -->
     <div class="hero-head">
@@ -8,24 +8,28 @@
     </div>
 
     <!-- Hero content: will be in the middle -->
-    <div class="hero-body">
-        <div class="container has-text-centered block">
-            <img src="{{ "/img/logo/logo-long-white.svg" | relURL }}" height="200" width="400"/>
-        </div>
-	<p class="is-centred uqcs-blurb" >
-		    UQCS is a student society, run by students, for students. We engage with a broad range of student interests, from digital design to software engineering. We're an inclusive club focused on developing the next generation of innovators, through twice-weekly events spanning educational, social, and industry emphases. Our membership spans undergraduates, postgraduates, recent graduates, and alumni.
-	</p>
-        <div class="buttons is-centered" >
+    <div class="hero-body" style="
+        background-image: url({{ "/img/media/home/home_one.jpg" | relURL }}); 
+        background-size: cover; 
+        background-position:center; 
+        height: 400px; margin: 0px;"> 
+    </div>
+
+    <!-- Hero footer: will stick at the bottom -->
+    <div class="hero-foot p-5 is-dark uqcs-background">
+        <h1 class="title is-centered has-text-centered text-blue">Welcome to UQCS!</h1>
+        <p class="is-centred uqcs-blurb">
+            UQCS is a student society, run by students, for students. We engage with a broad range of student interests,
+            from digital design to software engineering. We're an inclusive club focused on developing the next
+            generation of innovators, through twice-weekly events spanning educational, social, and industry emphases.
+            Our membership spans undergraduates, postgraduates, recent graduates, and alumni.
+        </p> <!-- TODO: New text here -->
+        <div class="buttons is-centered">
             <a href="https://join.uqcs.org/">
                 <button class="button join-button is-large has-text-weight-bold">
                     Join UQCS!
                 </button>
             </a>
         </div>
-    </div>
-
-    <!-- Hero footer: will stick at the bottom -->
-    <div class="hero-foot">
-        
     </div>
 </section>

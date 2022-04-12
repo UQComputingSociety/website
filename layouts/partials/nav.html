@@ -2,10 +2,10 @@
 
 <div class="columns is-gapless is-centered is-marginless">
     <div class="column is-8">
-        <nav class="navbar is-dark">
+        <nav class="navbar">
             <div class="navbar-brand">
                 <a href="{{ "/" | relURL }}" class="navbar-item is-paddingless">
-                    <img src="{{ "/img/logo/logo.svg" | relURL }}" class="image is-64x64" style="max-height: 2.5rem;"/>
+                    <img src="{{ "/img/logo/logo-long.svg" | relURL }}" class="image is-128x128" style="max-height: 2.5rem;"/>
                 </a>
                 <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
                     data-target="uqcsNavBar">
@@ -15,9 +15,9 @@
                 </a>
             </div>
             <div id="uqcsNavBar" class="navbar-menu">
-                <div class="navbar-start">
+                <!-- <div class="navbar-start">
                     {{ partial "nav/navbar-start.html" . }}
-                </div>
+                </div> -->
                 <div class="navbar-end">
                     {{ partial "nav/navbar-end.html" . }}
                 </div>

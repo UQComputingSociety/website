@@ -31,6 +31,14 @@
   background-size: cover;
 }
 
+.hero-foot {
+  color: white;
+}
+
+.text-blue {
+  color: var(--blue);
+}
+
 .sponsor-img {
   width: 90%;
 }

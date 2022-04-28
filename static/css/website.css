@@ -21,6 +21,7 @@
    * These should match the Sass variables at
    * https://github.com/UQComputingSociety/static/blob/main/bulma/variables.scss
    */
+  --white: #FFFFFF;
   --grey: #414141;
   --blue: #50C3F0;
 }
@@ -31,12 +32,12 @@
   background-size: cover;
 }
 
-.hero-foot {
-  color: white;
-}
-
 .text-blue {
   color: var(--blue);
+}
+
+.text-white {
+  color: var(--white);
 }
 
 .sponsor-img {

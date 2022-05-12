@@ -9,25 +9,25 @@
                 Here is what is coming up with UQCS!
             </span>
 
-            <div class="tile is-ancestor mt-3">
-                <div id="events-box" class="tile is-parent">
+            <div id="events-box" class="tile is-ancestor mt-3"></div>
 
-                </div>
-            </div>
             <template id="event-item-template">
-                <div class="tile is-child box">
-                    <!-- <div class="m-2 px-2 py-4"> -->
-                        <h3 class="is-size-5" id="event-name"></h3>
-                        <h4 class="is-size-6" id="event-time"></span>
-                        <h4 class="is-size-6" id="event-location"></h4>
-                    <!-- </div> -->
+                <div class="tile is-parent">
+                    <a id="event-link" href="#" target="_blank">
+                        <div class="tile is-child box">
+                            <h3 class="is-size-5" id="event-name"></h3>
+                            <h4 class="is-size-6" id="event-time"></span>
+                                <h4 class="is-size-6" id="event-location"></h4>
+                            </div>
+                        </a>
                 </div>
             </template>
+
             <template id="events-empty">
                 <div class="tile is-child">
                     <p class="mt-4">
-                        It seems that there are no scheduled upcoming events. <br/>Follow us on 
-                        <a href="https://facebook.com/UQComputing">Facebook</a> 
+                        It seems that there are no scheduled upcoming events. <br/>
+                        Follow us on <a href="https://facebook.com/UQComputing">Facebook</a> 
                         or join our <a href="https://discord.uqcs.org">Discord</a> to keep up to date with what is going on.
                     </p>
                 </div>
@@ -45,7 +45,7 @@
             "orderBy": "startTime",
             "singleEvents": "true",
             "timeMin": new Date().toISOString(),
-            "key": ""
+            "key": "AIzaSyC-c78Fu_Rw36zKXh9XvCpTOXvlNPXlyNc",
         }
         
         const encodedParams = new URLSearchParams(params).toString()
@@ -62,6 +62,7 @@
             if (!eventsList) {
                 const emptyTemplate = document.getElementById("events-empty")
                 eventsBox.appendChild(emptyTemplate.content.cloneNode(true))
+                return
             }
             
             eventsList.forEach(element => {
@@ -78,6 +79,9 @@
 
                 const location = newItem.getElementById("event-location")
                 location.textContent = element.location
+
+                const eventLink = newItem.getElementById("event-link")
+                eventLink.href = element.htmlLink
 
                 eventsBox.appendChild(newItem)
             });

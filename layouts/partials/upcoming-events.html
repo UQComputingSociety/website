@@ -81,7 +81,13 @@
                 location.textContent = element.location
 
                 const eventLink = newItem.getElementById("event-link")
+                // A regular expression that should find all links in the description,
+                // and work around calendar description encoding weirdness.
                 eventLink.href = element.htmlLink
+                if (element.description) {
+                    const matchedLinks = element.description.match(/\bhttps?:\/\/\S[^<>\"\u003c \n]+/gi)
+                    eventLink.href = matchedLinks ? matchedLinks[0] : eventLink.href
+                }
 
                 eventsBox.appendChild(newItem)
             });

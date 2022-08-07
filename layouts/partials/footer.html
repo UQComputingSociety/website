@@ -1,23 +1,38 @@
 {{ "<!-- Footer -->" | safeHTML }}
 <footer class="footer uqcs-background is-dark">
-    <div class="container has-text-white footer-info">
-        <div class="level">
-            <div class="level-left">
-                <div class="level-item">
-                    <div><div class="is-size-4 has-text-white">Come, chat with us!</div>
-                    We would love to have you join our 
-                    <a href="https://discord.uqcs.org/">Discord community</a>!
+    <div class="has-text-white footer-info columns is-centered">
+        <div class="column is-9-desktop is-10-tablet">
+            <div class="level">
+                <div class="level-left">
+                    <div class="level-item">
+                        <div>
+                            <img src="{{ "/img/logo/logo-long-white.svg" | relURL }}" alt="UQ Computing Society Logo"
+                                class="image" style="display: block; height: 100px; width: 256px;" />
+                            <div class="mt-2">&copy; UQ Computing Society {{ now.Year }}</div>
+                            <div>👋 Hello from Brisbane/Meanjin</div>
+                        </div>
+                    </div>
                 </div>
+                <div class="level-right is-hidden-mobile">
+                    <div class="level-item">
+                        <ul>
+                            <li class="footer-link"><a class="text-white " href="/about">About</a></li>
+                            <li class="footer-link"><a class="text-white " href="/events">Events</a></li>
+                            <li class="footer-link"><a class="text-white " href="/connect">Connect</a></li>
+                            <li class="footer-link"><a class="text-white " href="/showcase">Showcase</a></li>
+                        </ul>
+                    </div>
+                    <div class="level-item pl-6">
+                        <ul>
+                            <li class="footer-link"><a href="https://join.uqcs.org">Join UQCS</a></li>
+                            <li class="footer-link"><a href="https://discord.uqcs.org">Discord</a></li>
+                            <li class="footer-link"><a href="https://github.com/uqcomputingsociety/design">Design
+                                    Kit</a></li>
+                            <li class="footer-link"><a href="https://sponsor.uqcs.org">Sponsorship</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <div class="level-right">
-                <div class="level-item">
-                    {{ partial "share.html" . }}
-                </div>
-            </div>
-        </div>
-        <div class="has-text-centered">
-            &copy; UQ Computing Society 2021
         </div>
     </div>
 </footer>

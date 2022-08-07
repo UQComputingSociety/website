@@ -5,7 +5,7 @@
         <nav class="navbar">
             <div class="navbar-brand">
                 <a href="{{ "/" | relURL }}" class="navbar-item is-paddingless">
-                    <img src="{{ "/img/logo/logo-long.svg" | relURL }}" class="image is-128x128" style="max-height: 2.5rem;"/>
+                    <img src="{{ "/img/logo/logo-long.svg" | relURL }}" alt="UQ Computing Society Logo" class="image is-128x128" style="max-height: 2.5rem;"/>
                 </a>
                 <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
                     data-target="uqcsNavBar">
@@ -15,9 +15,6 @@
                 </a>
             </div>
             <div id="uqcsNavBar" class="navbar-menu">
-                <!-- <div class="navbar-start">
-                    {{ partial "nav/navbar-start.html" . }}
-                </div> -->
                 <div class="navbar-end">
                     {{ partial "nav/navbar-end.html" . }}
                 </div>

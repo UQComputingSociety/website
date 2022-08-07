@@ -21,9 +21,9 @@
    * These should match the Sass variables at
    * https://github.com/UQComputingSociety/static/blob/main/bulma/variables.scss
    */
-  --white: #FFFFFF;
+  --white: #ffffff;
   --grey: #414141;
-  --blue: #50C3F0;
+  --blue: #50c3f0;
 }
 
 /*UQCS Website Style Sheet*/
@@ -141,6 +141,27 @@ zero-md > * {
   -ms-animation: fadein 0.5s; /* Internet Explorer */
   -o-animation: fadein 0.5s; /* Opera < 12.1 */
   animation: fadein 0.5s;
+}
+
+.navbar-menu {
+  box-shadow: none;
+}
+
+.footer {
+  padding: 3rem 1.5rem;
+}
+
+.footer-link {
+  margin-bottom: 1rem;
+  width: 100px;
+}
+
+.footer-link a {
+  color: var(--white);
+}
+
+.footer-link a:hover {
+  color: var(--blue);
 }
 
 @keyframes fadein {

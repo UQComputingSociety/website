@@ -108,6 +108,13 @@ h5 {
   padding-top: 20px;
 }
 
+.hero-content {
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  margin: 0px;
+}
+
 .showcase-image img {
   position: absolute;
   top: 0;

@@ -36,6 +36,10 @@
   color: var(--blue);
 }
 
+.hero.is-dark .title {
+  color: var(--blue)
+}
+
 .text-white {
   color: var(--white);
 }

@@ -17,3 +17,4 @@ _site/
 
 node_modules/
 resources/
+.hugo_build.lock

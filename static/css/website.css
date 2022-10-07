@@ -21,14 +21,27 @@
    * These should match the Sass variables at
    * https://github.com/UQComputingSociety/static/blob/main/bulma/variables.scss
    */
+  --white: #ffffff;
   --grey: #414141;
-  --blue: #50C3F0;
+  --blue: #50c3f0;
 }
 
 /*UQCS Website Style Sheet*/
 .uqcs-background {
   background-color: var(--grey);
   background-size: cover;
+}
+
+.text-blue {
+  color: var(--blue);
+}
+
+.hero.is-dark .title {
+  color: var(--blue)
+}
+
+.text-white {
+  color: var(--white);
 }
 
 .sponsor-img {
@@ -99,6 +112,13 @@ h5 {
   padding-top: 20px;
 }
 
+.hero-content {
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  margin: 0px;
+}
+
 .showcase-image img {
   position: absolute;
   top: 0;
@@ -132,6 +152,27 @@ zero-md > * {
   -ms-animation: fadein 0.5s; /* Internet Explorer */
   -o-animation: fadein 0.5s; /* Opera < 12.1 */
   animation: fadein 0.5s;
+}
+
+.navbar-menu {
+  box-shadow: none;
+}
+
+.footer {
+  padding: 3rem 1.5rem;
+}
+
+.footer-link {
+  margin-bottom: 1rem;
+  width: 100px;
+}
+
+.footer-link a {
+  color: var(--white);
+}
+
+.footer-link a:hover {
+  color: var(--blue);
 }
 
 @keyframes fadein {

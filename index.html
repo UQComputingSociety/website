@@ -14,7 +14,7 @@ const params={"maxResults":"3","orderBy":"startTime","singleEvents":"true","time
 const encodedParams=new URLSearchParams(params).toString()
 const newEvents=await fetch(url+encodedParams,{Accept:"application/json"}).then(response=>response.json()).then(data=>{const eventsBox=document.getElementById("events-box")
 const eventsList=data.items
-if(!eventsList){const emptyTemplate=document.getElementById("events-empty")
+if(!eventsList||eventsList.length==0){const emptyTemplate=document.getElementById("events-empty")
 eventsBox.appendChild(emptyTemplate.content.cloneNode(true))
 return}
 eventsList.forEach(element=>{const template=document.getElementById("event-item-template")

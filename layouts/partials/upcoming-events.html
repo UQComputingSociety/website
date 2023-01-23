@@ -59,7 +59,7 @@
             const eventsList = data.items
 
             // Check if nothing came back, if so report nothing is coming up.
-            if (!eventsList) {
+            if (!eventsList || eventsList.length == 0) {
                 const emptyTemplate = document.getElementById("events-empty")
                 eventsBox.appendChild(emptyTemplate.content.cloneNode(true))
                 return

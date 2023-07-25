@@ -73,9 +73,21 @@
                 name.textContent = element.summary
                 
                 const time = newItem.getElementById("event-time")
-                time.textContent = new Date(element.start.dateTime).toLocaleString(
-                    "en-AU", { weekday: "long", day: "numeric", month: "short", hour: "numeric", minute: "numeric" }
-                )
+                // Check if event is an all-day / multi-day event; if so, we use the start and end dates instead of the datetimes
+                if (Object.hasOwn(element.start, "date")) {
+                    let startDate = new Date(element.start.date)
+                    let endDate = new Date(element.end.date)
+                    let options = { weekday: "long", day: "numeric", month: "short"}
+
+                    // The API always adds an extra day to the end date to prevent the start and end dates from coinciding;
+                    // so we subtract a day to get the true end date
+                    endDate.setDate(endDate.getDate() - 1)
+                    time.textContent = startDate.toLocaleString("en-AU", options) + " — " + endDate.toLocaleString("en-AU", options)
+                } else {
+                    time.textContent = new Date(element.start.dateTime).toLocaleString(
+                        "en-AU", { weekday: "long", day: "numeric", month: "short", hour: "numeric", minute: "numeric" }
+                    )
+                }
 
                 const location = newItem.getElementById("event-location")
                 location.textContent = element.location

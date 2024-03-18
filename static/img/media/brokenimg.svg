@@ -1,0 +1,12 @@
+<svg width="14" height="16" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg">
+  <path d="M2,2 l8,0 l0,3 l2,0 l0,2 l-4,0 l0,5 l-1,0 l0,-1 l-1,0 l0,-1 l-1,0 l0,-1 l-1,0 l0,-1 l-1,0 l0,5 l1,0 l0,1 l-2,0 z      M11,11 l1,0 l0,3 l-3,0 l0,-1 l2,0 z" fill="silver" stroke="none"/>
+  <path d="M0,0 l10,0 l0,1 l-9,0 l0,14 l1,0 l0,1 l-2,0 z            M10,4 l4,0 l0,3 l-1,0 l0,-2 l-3,0 z      M13,10 l1,0 l0,6 l-6,0 l0,-1 l5,0 z      M3,12 l3,0 l0,1 l-3,0 z      M5,6 l3,0 l0,-2 l-1,0 l0,3 l-2,0 z      M8,10 l2,0 l0,1 l-2,0 z      M11,7 l1,0 l0,2 l-1,0 z" fill="black" stroke="none"/>
+  <path d="M10,0 l1,0 l0,1 l1,0 l0,2 l2,0 l0,1 l-1,0 l0,-2 l-2,0 l0,2 l-1,0 z" fill="grey" stroke="none"/>
+  <path d="M5,3 l2,0 l0,3 l-3,0 l0,-2 l1,0 z" fill="green" stroke="none"/>
+  <path d="M5,4 l1,0 l0,1 l-1,0 z" fill="lime" stroke="none"/>
+  <path d="M8,7 l3,0 l0,3 l-3,0 z" fill="blue" stroke="none"/>
+  <path d="M9,8 l1,0 l0,1 l-1,0 z" fill="cyan" stroke="none"/>
+  <path d="M10,9 l1,0 l0,1 l-1,0 z" fill="navy" stroke="none"/>
+  <path d="M3,9 l1,0 l0,1 l1,0 l0,1 l1,0 l0,1 l-3,0 z" fill="magenta" stroke="none"/>
+  <path d="M3,8 l1,0 l0,2 l2,0 l0,2 l1,0 l0,-1 l-2,0 l0,-2 l-2,0 z" fill="red" stroke="none"/>
+</svg>

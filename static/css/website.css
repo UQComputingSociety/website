@@ -70,6 +70,14 @@
   width: 100%;
 }
 
+.committee-broken {
+  border-radius: 0%;
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
 .committee-element.box {
   /* need to override precedence of margin-bottom on bulma's .box */
   min-width: 12rem;

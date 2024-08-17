@@ -184,6 +184,11 @@
                     let minutes = Math.floor(time_diff / (1000 * 60)) % 60;
                     let seconds = Math.floor(time_diff / 1000) % 60;
                     text = "" + leftpad_with_zeros(hours, 2) + ":" + leftpad_with_zeros(minutes, 2) + ":" + leftpad_with_zeros(seconds, 2);
+
+                    if (hours <= 24 && minutes == 0 && seconds == 0) {
+                        let audio = new Audio('https://vetinari.net/bell.mp3');
+                        audio.play();
+                    }
                 }
                 timer.textContent = text;
             }, 1000);

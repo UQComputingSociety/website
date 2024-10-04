@@ -51,7 +51,7 @@ Have you built something cool you want to show off to the world? It's easy to pu
 2. Follow the "Getting Setup" instructions above, replacing the URL with your fork's URL.
 2. Add your project to [content/showcase/_index.html](https://github.com/UQComputingSociety/website/blob/master/content/showcase/_index.html) by copying the format of an existing `showcase-item`. New projects should be added to the top.
 3. Modify the `caption` text with a short blurb for your project. If you want to, you can use basic HTML in this field.
-4. Add an image by adding it to the static/img/media/showcase/ folder then specifying the `src` attribute. Images should be at least 1000&times;750 (larger images with the same aspect ratio are also fine).
+4. Add an image by adding it to the `static/img/media/showcase/` folder then specifying the `src` attribute. Images should be at least 1000&times;750 (larger images with the same aspect ratio are also fine).
 5. Link your project's GitHub repository or website using the `link` attribute.
 6. Preview the showcase page at http://localhost:1313/showcase/ and make sure you're happy with how it looks.
 7. Create a pull request by following the steps at [CONTRIBUTING.md](CONTRIBUTING.md) (creating a new issue isn't required for showcase items).

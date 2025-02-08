@@ -24,6 +24,10 @@
   --white: #ffffff;
   --grey: #414141;
   --blue: #50c3f0;
+  --emerald: #50C878;
+  --gold: #FFD700;
+  --silver: #C0C0C0;
+  --bronze: #CD7F32;
 }
 
 /*UQCS Website Style Sheet*/
@@ -44,8 +48,34 @@
   color: var(--white);
 }
 
+.has-text-emerald {
+    color: var(--emerald);
+  }
+  
+.has-text-gold {
+color: var(--gold);
+}
+
+.has-text-silver {
+color: var(--silver);
+}
+
+.has-text-bronze {
+color: var(--bronze);
+}
+
+.sponsor-tier {
+margin-bottom: 4rem;
+}
+
+
 .sponsor-img {
-  width: 90%;
+    width: 100%;
+    transition: transform 0.2s;
+  }
+  
+.sponsor-img:hover {
+transform: scale(1.05);
 }
 
 .sponsor-container {
@@ -224,3 +254,43 @@ zero-md > * {
   border: 2px solid white !important;
   border-radius: 0px !important;
 }
+
+/* Size variations for different tiers */
+.emerald-sponsor {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+.gold-sponsor {
+max-width: 300px;
+margin: 0 auto;
+}
+
+.silver-sponsor {
+max-width: 250px;
+margin: 0 auto;
+}
+
+.bronze-sponsor {
+max-width: 200px;
+margin: 0 auto;
+}
+
+/* Mobile adjustments */
+@media screen and (max-width: 768px) {
+    .emerald-sponsor {
+      max-width: 300px;
+    }
+    
+    .gold-sponsor {
+      max-width: 250px;
+    }
+    
+    .silver-sponsor {
+      max-width: 200px;
+    }
+    
+    .bronze-sponsor {
+      max-width: 150px;
+    }
+  }

@@ -21,3 +21,6 @@ title = "UQCS"
     custom_js  = ["/js/navigation.js", "/js/button-box.js", "/js/favicon.js"]
     custom_ico = "/img/favicon/favicon.ico"
     custom_fonts = []
+
+[security]
+allowContent = ['text/html']

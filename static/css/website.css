@@ -36,6 +36,17 @@
   color: var(--blue);
 }
 
+/* Custom colours for sponsorship levels */
+.text-gold {
+  color: #EFBF04;
+}
+.text-silver {
+  color: #C4C4C4;
+}
+.text-bronze {
+  color: #CE8946;
+}
+
 .hero.is-dark .title {
   color: var(--blue)
 }

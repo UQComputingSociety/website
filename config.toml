@@ -1,6 +1,6 @@
 # Site settings
 baseURL = "https://uqcs.org/"
-languageCode = "en-us"
+locale = "en-AU"
 title = "UQCS"
 
 

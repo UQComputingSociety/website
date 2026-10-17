@@ -20,28 +20,19 @@ You can contribute code by forking the repository, making your changes and creat
 For more information checkout the [CONTRIBUTING.md](CONTRIBUTING.md)
 
 Want help with creating a pull request? No problem!
-Email us at contact@uqcs.org.au for help, or ask in [Discord](https://discord.uqcs.org/).
+Email us at contact@uqcs.org for help, or ask in [Discord](https://discord.uqcs.org/).
 
 
 ### Getting Setup
 
 1. [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
-2. [Install Hugo](https://gohugo.io/getting-started/installing/) (make sure to get the extended version).
+2. [Install Hugo](https://gohugo.io/installation/) (make sure to get the extended version).
 3. Open your preferred terminal.
 4. Run `git clone https://github.com/UQComputingSociety/website.git`
 5. Run `cd website`
 6. Run `hugo server -D`
 7. Open your preferred browser.
 8. Navigate to http://localhost:1313/
-
-##### WSL
-A couple extra steps are needed for running hugo on WSL. Do steps 1-5, then:
-
-6. In a windows terminal, use `wsl -t $name` to terminate any WSL instances except the one you want to run hugo on.
-7. Run `wsl hostname -I` to find the IP address of that WSL instance.
-8. Run `hugo server -D --bind $ip --baseURL=$ip` instead of just `hugo server -D`
-9. Open your preferred browser.
-10. Navigate to http://$ip:1313/
 
 ### Showcasing Your Project
 
